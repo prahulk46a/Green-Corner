@@ -19,6 +19,7 @@ const Signin = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Form submitted:", formData);
+
     // Add your sign-in logic here
   };
   return (
@@ -27,11 +28,11 @@ const Signin = () => {
         <Navbar />
         <div>
           <img
-            className="relative md:h-[90vh] sm:h-[40vh]  "
+            className="relative md:h-[90vh] sm:h-[40vh]   "
             src={SigninBg}
           ></img>
 
-          <div className="absolute  md:top-40 md:right-60 sm:top-10 sm:right-10 md:min-h-[50vh] md:min-w-[20vw]  flex items-center justify-center sm:scroll ">
+          <div className="absolute  md:top-40 md:right-60 sm:top-10 sm:right-10 md:min-h-[50vh] md:min-w-[20vw]   flex items-center justify-center sm:scroll ">
             <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
               <h2 className="text-2xl font-bold text-center text-gray-800 mb-6">
                 Sign In
