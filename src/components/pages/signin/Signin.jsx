@@ -3,6 +3,10 @@ import SigninBg from "../../../assets/SigninBg.jpg";
 import Footer from "../../utils/Footer/Footer";
 import Navbar from "../../utils/navbar/Navbar";
 import { useState } from "react";
+import axios from "axios";
+import { useNavigate } from "react-router-dom";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const Signin = () => {
   const [formData, setFormData] = useState({
     email: "",
@@ -16,16 +20,48 @@ const Signin = () => {
     });
   };
 
+  let navigate = useNavigate();
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Form submitted:", formData);
+    //After fetching data from auth api stored in set and then checked whether data present in set or not
+    axios
+      .get("http://116.75.62.44:8000/auth")
+      .then((response) => {
+        console.log(response);
+        const exists = response.data.some(
+          (user) =>
+            user.email === formData.email && user.password === formData.password
+        );
+
+        // console.log(exists); // true if a matching user is found
+
+        if (exists) {
+          navigate("/home");
+        } else {
+          toast.error("Invalid login. Please try again.", {
+            position: "top-right",
+            autoClose: 3000, // Close after 3 seconds
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            theme: "light",
+          });
+        }
+      })
+      .catch((error) => {
+        console.error("Error fetching data:", error);
+      });
 
     // Add your sign-in logic here
   };
+
   return (
     <>
       <div className="flex flex-col ">
         <Navbar />
+        <ToastContainer />
         <div>
           <img
             className="relative md:h-[90vh] sm:h-[40vh]   "
@@ -46,6 +82,7 @@ const Signin = () => {
                   >
                     Email Address
                   </label>
+
                   <input
                     type="email"
                     id="email"
