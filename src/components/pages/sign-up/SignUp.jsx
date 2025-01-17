@@ -79,7 +79,7 @@ const SignUp = () => {
         src={SigninBg}
         alt="Background"
       />
-      <div className="absolute md:top-40 md:right-60 sm:top-10 sm:right-10 md:min-h-[50vh] md:min-w-[20vw] min-h-full flex items-center justify-center sm:scroll">
+      <div className="md:absolute sm:relative md:top-40 md:right-60 sm:top-10 sm:right-10 md:min-h-[50vh] md:min-w-[20vw] min-h-full flex items-center justify-center sm:scroll">
         <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
           <h2 className="text-2xl font-bold text-center text-gray-800 mb-6">
             Sign Up

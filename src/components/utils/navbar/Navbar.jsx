@@ -1,94 +1,205 @@
-import { Link } from "react-router-dom";
-import Logo from "../../../assets/logo.jpg";
+import React, { useState } from "react";
+import { Link, Links } from "react-router-dom";
+import logo from "../../../assets/logo.png";
+
 const Navbar = () => {
+  const navLinks = [
+    { path: "/home", label: "Home" },
+    { path: "/plants", label: "Plants" },
+    { path: "/bulk-gifting", label: "Bulk Gifting" },
+    { path: "/plant-care", label: "Plant Care" },
+  ];
+
+  const iconLinks = [
+    {
+      icon: (
+        <svg
+          className="w-5 h-5"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+          />
+        </svg>
+      ),
+      label: "Search",
+    },
+    {
+      icon: (
+        <svg
+          className="w-5 h-5"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+          />
+        </svg>
+      ),
+      label: "Wishlist",
+      path: "/wishlist",
+    },
+    {
+      icon: (
+        <svg
+          className="w-5 h-5"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+          />
+        </svg>
+      ),
+      label: "Cart",
+      path: "/cart",
+    },
+    {
+      icon: (
+        <svg
+          className="w-5 h-5"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+          />
+        </svg>
+      ),
+      label: "SignIn",
+      path: "/signin",
+    },
+  ];
+
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <nav className="bg-slate-100 border-gray-200 ">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-10 p-4">
-        <Link
-          to="/"
-          className="flex items-center space-x-3 rtl:space-x-reverse"
-        >
-          <img src={Logo} className="h-14" alt="Company Logo" />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-black">
-            Green Corner
-          </span>
-        </Link>
-        <button
-          data-collapse-toggle="navbar-default"
-          type="button"
-          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-          aria-controls="navbar-default"
-          aria-expanded="false"
-        >
-          <span className="sr-only">Open main menu</span>
-          <svg
-            className="w-5 h-5"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 17 14"
+    <nav className="bg-white shadow-md p-2 mb-2 relative">
+      <div className="max-w-screen-xl mx-auto px-4">
+        <div className="flex items-center justify-between h-16">
+          {/* Logo */}
+          <Link to="/" className="flex items-center space-x-3">
+            <span className="w-16" alt="Company Logo">
+              <img src={logo}></img>
+            </span>
+            <span className="self-center text-2xl font-semibold text-gray-800">
+              Green Corner
+            </span>
+          </Link>
+
+          {/* Mobile menu button */}
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            className="md:hidden p-2 text-gray-600 hover:bg-gray-100 rounded-lg"
           >
-            <path
+            <svg
+              className="w-6 h-6"
+              fill="none"
               stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M1 1h15M1 7h15M1 13h15"
-            />
-          </svg>
-        </button>
-        <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul className="font-medium flex flex-col p-4  mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:border-gray-700">
-            <li>
-              <Link
-                to="/home"
-                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                aria-current="page"
-              >
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/plants"
-                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
-                Plants
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/bulk-gifting"
-                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
-                Corporate/Bulk Gifting
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/plant-care"
-                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
-                Plant Care
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/offer"
-                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
-                Offer
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/signin"
-                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
-                SignIn
-              </Link>
-            </li>
-          </ul>
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d={isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}
+              />
+            </svg>
+          </button>
+
+          {/* Desktop Navigation */}
+          <div className="hidden md:flex md:items-center md:space-x-8">
+            {/* Navigation Links */}
+            <ul className="font-medium flex space-x-8 mr-20">
+              {navLinks.map(({ path, label }) => (
+                <li key={path}>
+                  <Link to={path} className="text-gray-900 hover:text-blue-600">
+                    {label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+
+            {/* Icons */}
+
+            <ul className="flex space-x-6">
+              {" "}
+              {/*space-x usd to space between 2 li*/}
+              {iconLinks.map(({ icon, label, path }, index) => (
+                <li key={index} className="group relative">
+                  <Link
+                    to={path}
+                    className="p-2 text-gray-600 hover:text-blue-600"
+                  >
+                    {icon}
+                    <div className="absolute invisible group-hover:visible bg-gray-800 text-white text-sm px-2 py-1 rounded-md -bottom-8 left-1/2 transform -translate-x-1/2 whitespace-nowrap">
+                      {label}
+                      <div className="absolute -top-1 left-1/2 transform -translate-x-1/2 border-4 border-transparent border-b-gray-800"></div>
+                    </div>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+
+        {/* Mobile Navigation */}
+        <div
+          className={`${
+            isOpen ? "block" : "hidden"
+          } md:hidden absolute top-16 left-0 right-0 bg-white border-b border-gray-200 shadow-lg z-50`}
+        >
+          <div className="px-4 py-3 space-y-4">
+            {/* Mobile Navigation Links */}
+            <ul className="space-y-3">
+              {navLinks.map(({ path, label }) => (
+                <li key={path}>
+                  <Link
+                    to={path}
+                    className="block text-gray-900 hover:text-blue-600 py-2"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    {label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+
+            {/* Mobile Icons with Labels */}
+            <div className="border-t border-gray-200 pt-3">
+              <ul className="grid grid-cols-4 gap-4">
+                {iconLinks.map(({ icon, label, path }, index) => (
+                  <li key={index} className="flex flex-col items-center">
+                    <Link
+                      to={path}
+                      className="p-2 text-gray-600 hover:text-blue-600 flex flex-col items-center"
+                      onClick={() => setIsOpen(false)}
+                    >
+                      {icon}
+                      <span className="text-xs mt-1">{label}</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </nav>
