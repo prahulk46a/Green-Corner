@@ -1,11 +1,13 @@
-import Home from "./components/pages/home/Home";
-import Signin from "./components/pages/signin/Signin";
+import { RouterProvider } from "react-router-dom";
+import PlantsContext from "./components/context/PlantsContext";
+import { routes } from "./components/routes/Routers";
 
 const App = () => {
   return (
-    // <Signin></Signin>
-    // <Home />
-    <Signup />
+    //using this my plantContext data will be available for entire application
+    <PlantsContext>
+      <RouterProvider router={routes} />
+    </PlantsContext>
   );
 };
 
