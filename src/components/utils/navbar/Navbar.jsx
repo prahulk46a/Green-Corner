@@ -5,9 +5,9 @@ import logo from "../../../assets/logo.png";
 const Navbar = () => {
   const navLinks = [
     { path: "/home", label: "Home" },
-    { path: "/plants", label: "Plants" },
-    { path: "/bulk-gifting", label: "Bulk Gifting" },
-    { path: "/plant-care", label: "Plant Care" },
+    { path: "/home/plants", label: "Products" },
+    { path: "/home/bulk-gifting", label: "Bulk Gifting" },
+    { path: "/home/plant-care", label: "Plant Care" },
   ];
 
   const iconLinks = [

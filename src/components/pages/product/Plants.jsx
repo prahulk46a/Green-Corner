@@ -5,9 +5,9 @@ import Footer from "../../utils/Footer/Footer";
 const Plants = () => {
   return (
     <div>
-      <Navbar></Navbar>
+      {/* <Navbar></Navbar> */}
       <div>Plants</div>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </div>
   );
 };

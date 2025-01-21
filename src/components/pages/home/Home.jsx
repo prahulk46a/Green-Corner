@@ -2,24 +2,17 @@ import Navbar from "../../utils/navbar/Navbar";
 import Footer from "../../utils/Footer/Footer";
 import { useContext } from "react";
 import { context } from "../../context/PlantsContext";
-import Card from "../../utils/card/Card";
+
+import { Outlet } from "react-router-dom";
 
 const Home = () => {
   let allPlants = useContext(context);
   console.log(allPlants);
   return (
     <div>
+      {/* here only necessary and constant things will be called and outlet will bring other  components dynamically  */}
       <Navbar />
-
-      <div className="min-h-[70vh]  justify-around flex flex-row flex-wrap">
-        {allPlants.allPlants && allPlants.allPlants.length > 0 ? (
-          allPlants.allPlants.map((plant) => (
-            <Card key={plant.id} plant={plant} />
-          ))
-        ) : (
-          <p>No plants available</p>
-        )}
-      </div>
+      <Outlet />
       <Footer />
     </div>
   );

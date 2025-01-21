@@ -6,32 +6,36 @@ import Offer from "../pages/offers/Offer";
 import PlantCare from "../pages/plant-care/PlantCare";
 import Signin from "../pages/signin/Signin";
 import SignUp from "../pages/sign-up/SignUp";
+import Hero from "../utils/HeroSection/Hero";
 
 export let routes = createBrowserRouter([
   {
     path: "/home",
     element: <Home />,
+    children: [
+      {
+        path: "/home",
+        element: <Hero />,
+      },
+      {
+        path: "/home/plants",
+        element: <Plants />,
+      },
+      {
+        path: "/home/bulk-gifting",
+        element: <BulkGifting />,
+      },
+      {
+        path: "/home/plant-care",
+        element: <PlantCare />,
+      },
+    ],
   },
   {
     path: "/",
     element: <Home />,
   },
-  {
-    path: "/plants",
-    element: <Plants />,
-  },
-  {
-    path: "/bulk-gifting",
-    element: <BulkGifting />,
-  },
-  {
-    path: "/plant-care",
-    element: <PlantCare />,
-  },
-  {
-    path: "/offer",
-    element: <Offer />,
-  },
+
   {
     path: "/signin",
     element: <Signin />,

@@ -6,11 +6,7 @@ import Hero from "../../utils/HeroSection/Hero";
 const BulkGifting = () => {
   return (
     <div>
-      <Navbar />
-      <div className="flex  w-[100vw] m-5">
-        <Hero></Hero>
-      </div>
-      <Footer />
+      <div className="flex  w-[100vw] m-5">bulk gifting</div>
     </div>
   );
 };
