@@ -1,5 +1,11 @@
+import SortByCategory from "../SortByCategory/SortByCategory";
+
 const PlantCare = () => {
-  return <div>PlantCare</div>;
+  return (
+    <div>
+      <SortByCategory />
+    </div>
+  );
 };
 
 export default PlantCare;

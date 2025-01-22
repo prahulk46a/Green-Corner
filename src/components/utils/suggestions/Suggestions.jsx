@@ -28,7 +28,7 @@ const Suggestions = () => {
       {/* See All Products link */}
       <div className="mt-8 text-center">
         <Link
-          to="/plants"
+          to="/home/plants"
           className="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition duration-300 text-base sm:text-lg lg:text-xl"
         >
           See All Products

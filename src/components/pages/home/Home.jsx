@@ -2,7 +2,6 @@ import Navbar from "../../utils/navbar/Navbar";
 import Footer from "../../utils/Footer/Footer";
 import { useContext } from "react";
 import { context } from "../../context/PlantsContext";
-
 import { Outlet } from "react-router-dom";
 
 const Home = () => {

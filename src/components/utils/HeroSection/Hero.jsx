@@ -1,6 +1,7 @@
 import hero from "../../../assets/hero-Photoroom.png";
 import { useNavigate } from "react-router-dom";
 import Suggestions from "../suggestions/Suggestions";
+import SortByCategory from "../../pages/SortByCategory/SortByCategory";
 
 const Hero = () => {
   const navigate = useNavigate();
@@ -13,7 +14,7 @@ const Hero = () => {
       <section className="relative flex  justify-center items-center w-full px-2 pb-2  ">
         {/* Fullscreen Background Image */}
         <img
-          src={hero}
+          src="https://www.pickmyflowers.com/assets/imgs/new/nurserylive-home-page-banner.webp"
           alt="Hero Plants"
           className="relative w-[100%] rounded-md  shadow-xl m-2 -z-10 "
         />
@@ -27,7 +28,7 @@ const Hero = () => {
         </button>
       </section>
 
-      <div className="w-[97vw]  mx-5 py-5 rounded-full text-2xl text-green-700  font-bold flex justify-center items-center shadow-md bg-slate-200 overflow-x-hidden">
+      <div className="md: w-[97vw]  mx-5 py-5 rounded-full md:text-2xl sm:text-lg text-green-700  font-bold flex justify-center items-center shadow-md bg-slate-200 overflow-x-hidden">
         Get 20% off on order above @3999
       </div>
 
@@ -35,9 +36,7 @@ const Hero = () => {
         <Suggestions />
       </div>
 
-      <div className="my-5 mx-4 rounded-sm h-[100px] bg-slate-200 shadow-lg">
-        <h1> Show by category </h1>
-      </div>
+      <SortByCategory />
 
       <div className="my-5 mx-4 rounded-sm bg-slate-200 shadow-lg h-[500px]"></div>
     </div>
