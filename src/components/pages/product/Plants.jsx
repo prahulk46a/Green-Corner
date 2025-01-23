@@ -1,9 +1,13 @@
-import { Outlet } from "react-router-dom";
 import { context } from "../../context/PlantsContext";
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import Card from "../../utils/card/Card";
 
 const Plants = () => {
+  //To scroll directly on top firstly if navigated from certain page
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const data = useContext(context);
   const [showSidebar, setShowSidebar] = useState(false);
 
@@ -27,7 +31,7 @@ const Plants = () => {
       <aside
         className={`${
           showSidebar ? "block" : "hidden"
-        } fixed md:relative top-0 left-0  md:min-w-[20%] max-h-screen p-6 bg-white shadow-md z-20 md:block`}
+        } fixed md:relative top-0 left-0  md:min-w-[20%] max-h-screen p-6 bg-gray-100 rounded-md shadow-md m-4 border border-gray-200 z-20 md:block`}
       >
         <h3 className="text-lg font-semibold mb-4">Filters</h3>
         <div className="mb-4">
@@ -61,9 +65,9 @@ const Plants = () => {
       </aside>
 
       {/* Main Content */}
-      <div className="flex-grow flex flex-col justify-center bg-slate-100 p-10">
-        <h2 className="text-xl font-semibold mb-4">All Products</h2>
-        <div className="min-h-[70vh] justify-evenly flex flex-row flex-wrap bg-slate-200 p-2">
+      <div className="flex-grow flex flex-col justify-center bg-slate-100 mt-4 rounded-md shadow-md border border-gray-200 mr-4 mb-2 p-8 overflow-auto">
+        <h2 className="text-2xl text-primary font-bold mb-4">All Products</h2>
+        <div className=" h-[80vh] justify-evenly flex flex-row flex-wrap   pt-8 p-2 overflow-auto">
           {data.allPlants && data.allPlants.length > 0 ? (
             data.allPlants.map((plant) => <Card key={plant.id} plant={plant} />)
           ) : (

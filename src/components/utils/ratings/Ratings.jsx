@@ -9,7 +9,7 @@ const Ratings = ({ rating }) => {
   const emptyStars = totalStars - Math.ceil(rating); // Remaining empty stars
 
   return (
-    <div className="flex items-center">
+    <div className="flex items-center ">
       {/* Fully Filled Stars */}
       {[...Array(fullStars)].map((_, index) => (
         <MdStar key={index} className="text-yellow-600 text-lg" />

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, Links } from "react-router-dom";
+import { Link, Links, NavLink } from "react-router-dom";
 import logo from "../../../assets/logo.png";
 
 const Navbar = () => {
@@ -130,9 +130,20 @@ const Navbar = () => {
             <ul className="font-medium flex space-x-8 mr-20">
               {navLinks.map(({ path, label }) => (
                 <li key={path}>
-                  <Link to={path} className="text-gray-900 hover:text-blue-600">
+                  <NavLink
+                    to={path}
+                    end
+                    className={({ isActive }) => {
+                      // Ensure exact matching for the root path
+                      const isExactActive =
+                        path === "/"
+                          ? isActive && location.pathname === "/"
+                          : isActive;
+                      return isExactActive ? "yesActive" : "notActive";
+                    }}
+                  >
                     {label}
-                  </Link>
+                  </NavLink>
                 </li>
               ))}
             </ul>

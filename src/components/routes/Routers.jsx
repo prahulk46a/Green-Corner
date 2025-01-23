@@ -6,6 +6,7 @@ import PlantCare from "../pages/plant-care/PlantCare";
 import Signin from "../pages/signin/Signin";
 import SignUp from "../pages/sign-up/SignUp";
 import Hero from "../utils/HeroSection/Hero";
+import PageNotFound from "../pages/error-page/PageNotFound";
 
 export let routes = createBrowserRouter([
   {
@@ -42,6 +43,10 @@ export let routes = createBrowserRouter([
   {
     path: "/signup",
     element: <SignUp />,
+  },
+  {
+    path: "*",
+    element: <PageNotFound />,
   },
 ]);
 const Routers = () => {
