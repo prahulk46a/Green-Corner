@@ -5,8 +5,9 @@
 .yesActive{
     background: blue;
     color: white;
-    padding: 15px 10px;
-    border-radius:10%;
+    padding: 12px 10px;
+    border-radius:5%;
     opacity: 80%;
     transform: translateY();
+    box-shadow: 10px;
 }

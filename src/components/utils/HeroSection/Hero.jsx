@@ -1,7 +1,5 @@
-import hero from "../../../assets/hero.png";
 import { useNavigate } from "react-router-dom";
 import Suggestions from "../suggestions/Suggestions";
-import SortByCategory from "../../pages/SortByCategory/SortByCategory";
 
 const Hero = () => {
   const navigate = useNavigate();
