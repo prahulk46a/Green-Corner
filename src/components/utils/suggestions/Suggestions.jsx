@@ -6,11 +6,11 @@ import PropTypes from "prop-types";
 
 const Suggestions = ({ start, end, text }) => {
   let { allPlants } = useContext(context);
-  console.log(allPlants);
+  // console.log(allPlants);
   const displayedPlants = Array.isArray(allPlants)
     ? allPlants.slice(start, end)
     : [];
-  console.log(displayedPlants);
+  // console.log(displayedPlants);
 
   return (
     <div>

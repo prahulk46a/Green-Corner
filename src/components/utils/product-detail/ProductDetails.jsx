@@ -1,17 +1,21 @@
 import { HiArrowLeft } from "react-icons/hi";
 import Ratings from "../ratings/Ratings";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import Reviews from "../reviews/Reviews";
 
-const ProductDetails = ({ plant }) => {
+const ProductDetails = () => {
   let navigate = useNavigate();
+
   let handleClick = () => {
     navigate("/home/plants");
   };
+  let location = useLocation();
+  console.log(location);
+  let { plant } = location.state;
+
   return (
     <div className="flex xs:flex-col md:flex-row">
       {/* Product Section */}
-
       <main className="max-w-7xl mx-auto p-6">
         <div
           className=" flex justify-center items-center mb-5 bg-black w-20 p-2 rounded-xl"
@@ -92,7 +96,7 @@ const ProductDetails = ({ plant }) => {
 
         {/* Reviews related to plant   */}
         <h1>Reviews</h1>
-        <Reviews review={plant.reviews} />
+        <Reviews reviews={plant.reviews} />
       </main>
     </div>
   );

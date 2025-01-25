@@ -9,7 +9,7 @@ const Ratings = ({ rating }) => {
   const emptyStars = totalStars - Math.ceil(rating); // Remaining empty stars
 
   return (
-    <div className="flex items-center ">
+    <div className="flex items-center">
       {/* Fully Filled Stars */}
       {[...Array(fullStars)].map((_, index) => (
         <MdStar key={index} className="text-yellow-600 text-lg" />
@@ -27,16 +27,14 @@ const Ratings = ({ rating }) => {
 
       {/* Numerical Rating */}
       <span className="ml-2 text-gray-600 text-sm">
-        {rating.toFixed(1)} / 5
+        {rating.toFixed(1)} / 5.0
       </span>
     </div>
   );
 };
 
 Ratings.propTypes = {
-  plant: PropTypes.shape({
-    rating: PropTypes.string.isRequired,
-  }).isRequired,
+  rating: PropTypes.number.isRequired, // Validate `rating` directly as a number
 };
 
 export default Ratings;

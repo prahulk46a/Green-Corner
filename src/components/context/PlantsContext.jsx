@@ -3,6 +3,7 @@ import axios from "axios";
 
 export const context = createContext();
 
+// eslint-disable-next-line react/prop-types
 const PlantsContext = ({ children }) => {
   const [allPlants, setAllPlants] = useState([]);
 
@@ -16,7 +17,7 @@ const PlantsContext = ({ children }) => {
         console.error("Error fetching plants:", error);
       });
   }, []);
-  console.log(allPlants); //Will show first empty array and then api as component get reloaded when api fetch ans change in state occurs
+  // console.log(allPlants); //Will show first empty array and then api as component get reloaded when api fetch ans change in state occurs
   return <context.Provider value={{ allPlants }}>{children}</context.Provider>; //provided state to context
 };
 

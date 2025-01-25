@@ -1,7 +1,12 @@
 import PropTypes from "prop-types";
 import Ratings from "../ratings/Ratings";
+import { useNavigate } from "react-router-dom";
 
 const Card = ({ plant }) => {
+  let navigate = useNavigate();
+  let handleClick = () => {
+    navigate("/home/plant-desc", { state: { plant } });
+  };
   return (
     <div className="bg-white shadow-lg my-2 md:my-3 lg:my-4 p-2 md:p-3 lg:p-4 rounded-lg overflow-hidden transform transition-transform hover:scale-105 w-full xs:mx-1 xs:w-[175px] sm:w-[230] md:w-[250px] lg:w-[294px] xl:w-[315px] flex flex-col">
       {/* Image */}
@@ -9,6 +14,7 @@ const Card = ({ plant }) => {
         src={plant.primaryImage}
         alt={plant.name}
         className="h-32 sm:h-28 md:h-32 lg:h-40 xl:h-48  object-cover rounded-md"
+        onClick={handleClick}
       />
 
       {/* Card Content */}
@@ -63,7 +69,7 @@ Card.propTypes = {
   plant: PropTypes.shape({
     id: PropTypes.string.isRequired,
     availability: PropTypes.string.isRequired,
-    rating: PropTypes.string.isRequired,
+    rating: PropTypes.number.isRequired,
     name: PropTypes.string.isRequired,
     price: PropTypes.number.isRequired,
     primaryImage: PropTypes.string.isRequired,

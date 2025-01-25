@@ -7,6 +7,7 @@ import Signin from "../pages/signin/Signin";
 import SignUp from "../pages/sign-up/SignUp";
 import Hero from "../utils/HeroSection/Hero";
 import PageNotFound from "../pages/error-page/PageNotFound";
+import ProductDetails from "../utils/product-detail/ProductDetails";
 
 export let routes = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ export let routes = createBrowserRouter([
       {
         path: "/home/plant-care",
         element: <PlantCare />,
+      },
+      {
+        path: "/home/plant-desc",
+        element: <ProductDetails />,
       },
     ],
   },

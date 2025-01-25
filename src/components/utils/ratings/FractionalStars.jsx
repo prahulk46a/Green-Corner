@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { MdStar, MdStarBorder } from "react-icons/md";
 
 const FractionalStar = ({ fillPercentage }) => {
@@ -14,5 +15,9 @@ const FractionalStar = ({ fillPercentage }) => {
       </div>
     </div>
   );
+};
+
+FractionalStar.propTypes = {
+  fillPercentage: PropTypes.number.isRequired, // Validate `rating` directly as a number
 };
 export default FractionalStar;
