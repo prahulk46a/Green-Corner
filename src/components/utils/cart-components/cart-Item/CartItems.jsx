@@ -1,7 +1,14 @@
 import PropTypes from "prop-types";
 import Dropdown from "../../dropdown-buttons/Dropdown";
+import { useContext } from "react";
+import { CartContextState } from "../../../context/CartContext";
 
-const CartItems = ({ image, title, price, sizeOptions }) => {
+const CartItems = ({ id, image, title, price, sizeOptions }) => {
+  const { cart, removeFromCart } = useContext(CartContextState);
+  const handleRemove = () => {
+    removeFromCart(id);
+  };
+
   return (
     <div className="grid grid-cols-3 items-center gap-4">
       <div className="col-span-2 flex items-center gap-4">
@@ -14,7 +21,10 @@ const CartItems = ({ image, title, price, sizeOptions }) => {
         </div>
         <div>
           <h3 className="text-base font-bold text-gray-800">{title}</h3>
-          <button className="text-xs text-red-500 cursor-pointer mt-0.5">
+          <button
+            className="text-xs text-red-500 cursor-pointer mt-0.5"
+            onClick={handleRemove}
+          >
             Remove
           </button>
           <div className="flex gap-4 mt-4">
@@ -57,6 +67,7 @@ CartItems.propTypes = {
   image: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   price: PropTypes.number.isRequired,
+  id: PropTypes.string.isRequired,
   sizeOptions: PropTypes.arrayOf(PropTypes.string).isRequired, // Specify array type
 };
 

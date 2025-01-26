@@ -1,6 +1,6 @@
 const CartSummary = () => {
   return (
-    <div className="bg-gray-100 rounded-md p-4 md:sticky top-0">
+    <div className="bg-gray-100 rounded-md p-4 md:sticky top-0  ">
       <div className="flex border border-blue-600 overflow-hidden rounded-md">
         <input
           type="text"

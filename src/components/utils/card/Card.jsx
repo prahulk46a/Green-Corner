@@ -2,10 +2,14 @@ import PropTypes from "prop-types";
 import Ratings from "../ratings/Ratings";
 import { useNavigate } from "react-router-dom";
 import { CartContextState } from "../../context/CartContext";
-import { useContext } from "react";
+import { useContext, useState } from "react";
+import { motion } from "framer-motion";
 
 const Card = ({ plant }) => {
   const navigate = useNavigate();
+  //To visualize cart added
+  const [added, setAdded] = useState(false);
+
   const handleClick = () => {
     navigate("/home/plant-desc", { state: { plant } });
   };
@@ -17,6 +21,10 @@ const Card = ({ plant }) => {
   const handleCart = (plant) => {
     addToCart(plant);
     // console.log(cart); //current cart
+
+    //for visual effect of added to cart
+    setAdded(true); // Trigger the effect
+    setTimeout(() => setAdded(false), 1000); // Reset the effect after 1 second
   };
 
   return (
@@ -63,12 +71,29 @@ const Card = ({ plant }) => {
 
         <div className=" lg:block">
           <button
-            className="px-4 py-2 bg-green-600 text-white text-sm font-semibold rounded-lg hover:bg-green-700 transition-colors"
+            className={`mt-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition ${
+              added ? "animate-button-lift" : ""
+            }`}
             onClick={() => handleCart(plant)}
           >
             Add to Cart
           </button>
         </div>
+
+        {/* Visual Feedback */}
+        {added && (
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9, y: -10 }}
+            animate={{ opacity: 1, scale: 1.05, y: 0 }}
+            exit={{ opacity: 0, scale: 1, y: 10 }}
+            transition={{ duration: 1 }}
+            className="absolute top-0 left-0 w-full h-full bg-green-100/80 flex items-center justify-center"
+          >
+            <span className="text-green-800 font-bold text-lg">
+              Added to Cart!
+            </span>
+          </motion.div>
+        )}
       </div>
     </div>
   );

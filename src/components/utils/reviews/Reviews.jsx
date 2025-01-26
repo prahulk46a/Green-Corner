@@ -3,7 +3,7 @@ import Ratings from "../ratings/Ratings";
 import { AiOutlineDislike, AiOutlineLike } from "react-icons/ai";
 
 const Reviews = ({ reviews }) => {
-  console.log(reviews);
+  // console.log(reviews);
   if (!reviews || reviews.length === 0) {
     return <p>No reviews available for this product.</p>;
   }

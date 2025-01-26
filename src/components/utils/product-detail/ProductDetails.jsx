@@ -1,13 +1,18 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { HiArrowLeft } from "react-icons/hi";
 import Ratings from "../ratings/Ratings";
 import { useLocation, useNavigate } from "react-router-dom";
 import Reviews from "../reviews/Reviews";
+import { CartContextState } from "../../context/CartContext";
 
 const ProductDetails = () => {
   let navigate = useNavigate();
   let location = useLocation();
+  const { addToCart } = useContext(CartContextState);
   const { plant } = location.state;
+
+  //To add visual effect after adding to cart
+  const [added, setAdded] = useState(false);
 
   const [selectedImage, setSelectedImage] = useState(plant.primaryImage);
   const [selectedIndex, setSelectedIndex] = useState(null);
@@ -19,6 +24,12 @@ const ProductDetails = () => {
   const handleImageClick = (image, index) => {
     setSelectedImage(image);
     setSelectedIndex(index);
+  };
+
+  const handleCart = () => {
+    addToCart(plant);
+    setAdded(true); // Trigger the effect
+    setTimeout(() => setAdded(false), 1000); // Reset the effect after 1 second
   };
 
   return (
@@ -117,7 +128,12 @@ const ProductDetails = () => {
               <li>Size: 10-12 inches tall</li>
             </ul>
 
-            <button className="bg-green-500 hover:bg-green-600 m-5 text-white py-2 px-4 rounded-lg shadow-lg">
+            <button
+              className={`bg-green-500 hover:bg-green-600 m-5 text-white py-2 px-4 rounded-lg shadow-lg  transition ${
+                added ? "animate-button-lift" : ""
+              }`}
+              onClick={handleCart}
+            >
               Add to Cart
             </button>
             <button className="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded-lg shadow-lg">

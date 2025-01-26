@@ -13,8 +13,13 @@ const CartContext = ({ children }) => {
     });
   };
 
+  const removeFromCart = (id) => {
+    const updatedCart = cart.filter((item) => item.id !== id); // Removes the plant by id
+    setCart(updatedCart);
+  };
+
   return (
-    <CartContextState.Provider value={{ cart, addToCart }}>
+    <CartContextState.Provider value={{ cart, addToCart, removeFromCart }}>
       {children}
     </CartContextState.Provider>
   );
