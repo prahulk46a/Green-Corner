@@ -26,9 +26,7 @@ const Ratings = ({ rating }) => {
       ))}
 
       {/* Numerical Rating */}
-      <span className="ml-2 text-gray-600 text-sm">
-        {rating.toFixed(1)} / 5.0
-      </span>
+      <span className="ml-2 text-gray-600 text-sm">{rating.toFixed(1)}</span>
     </div>
   );
 };

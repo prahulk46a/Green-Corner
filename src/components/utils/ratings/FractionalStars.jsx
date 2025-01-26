@@ -18,6 +18,6 @@ const FractionalStar = ({ fillPercentage }) => {
 };
 
 FractionalStar.propTypes = {
-  fillPercentage: PropTypes.number.isRequired, // Validate `rating` directly as a number
+  fillPercentage: PropTypes.number.isRequired,
 };
 export default FractionalStar;

@@ -1,14 +1,26 @@
 import PropTypes from "prop-types";
 import Ratings from "../ratings/Ratings";
 import { useNavigate } from "react-router-dom";
+import { CartContextState } from "../../context/CartContext";
+import { useContext } from "react";
 
 const Card = ({ plant }) => {
-  let navigate = useNavigate();
-  let handleClick = () => {
+  const navigate = useNavigate();
+  const handleClick = () => {
     navigate("/home/plant-desc", { state: { plant } });
   };
+
+  //Bringing cart state
+  const { cart, addToCart } = useContext(CartContextState);
+
+  //Adding current card plant data to cart
+  const handleCart = (plant) => {
+    addToCart(plant);
+    // console.log(cart); //current cart
+  };
+
   return (
-    <div className="bg-white shadow-lg my-2 md:my-3 lg:my-4 p-2 md:p-3 lg:p-4 rounded-lg overflow-hidden transform transition-transform hover:scale-105 w-full xs:mx-1 xs:w-[175px] sm:w-[230] md:w-[250px] lg:w-[294px] xl:w-[315px] flex flex-col">
+    <div className="bg-white shadow-lg  my-3  rounded-lg overflow-hidden transform transition-transform hover:scale-105 w-full xs:mx-1 xs:w-[175px] sm:w-[230] md:w-[250px] lg:w-[294px] xl:w-[315px] flex flex-col">
       {/* Image */}
       <img
         src={plant.primaryImage}
@@ -49,16 +61,13 @@ const Card = ({ plant }) => {
           </span>
         </div>
 
-        {/* Additional Plant Info - Hidden on sm and md screens */}
-        <div className="hidden lg:block space-y-1">
-          <p className="text-xs md:text-sm text-gray-600">
-            <span className="font-semibold text-gray-800">Sunlight:</span>{" "}
-            {plant.sunlightRequirement || "Moderate"}
-          </p>
-          <p className="text-xs md:text-sm text-gray-600">
-            <span className="font-semibold text-gray-800">Moisture:</span>{" "}
-            {plant.moistureRequirement || "Weekly"}
-          </p>
+        <div className=" lg:block">
+          <button
+            className="px-4 py-2 bg-green-600 text-white text-sm font-semibold rounded-lg hover:bg-green-700 transition-colors"
+            onClick={() => handleCart(plant)}
+          >
+            Add to Cart
+          </button>
         </div>
       </div>
     </div>

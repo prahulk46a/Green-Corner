@@ -1,8 +1,9 @@
 import Navbar from "../../utils/navbar/Navbar";
 import Footer from "../../utils/Footer/Footer";
-import { useId, useReducer } from "react";
+import { useReducer } from "react";
 import SigninBg from "../../../assets/SigninBg.jpg";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 // Reducer function to manage form state
 const reducer = (state, action) => {
@@ -61,14 +62,14 @@ const SignUp = () => {
 
     // Log the updated state after submission. Here it will not display userid as state will get updated after next rendering cycle but it will get reflect on ui
     console.log("Form submitted:", state);
-    // axios.post("116.75.62.44:8000/adduser", state);
+
     axios.post("http://116.75.62.44:8000/adduser", {
       ...state,
       useId: Date.now(),
     });
 
     // Then reset the form
-    // dispatch({ type: "reset", initialState });
+    dispatch({ type: "reset", initialState });
   };
 
   return (
@@ -179,12 +180,12 @@ const SignUp = () => {
           {/* Bottom Link */}
           <p className="text-center text-gray-600 mt-4 text-sm">
             Already have an account?{" "}
-            <a
-              href="/signin"
+            <Link
+              to="/signin"
               className="text-blue-500 hover:underline font-medium"
             >
               Sign In
-            </a>
+            </Link>
           </p>
         </div>
       </div>

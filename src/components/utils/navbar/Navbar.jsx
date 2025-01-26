@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Link, Links, NavLink } from "react-router-dom";
+import { useState } from "react";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../../../assets/logo.png";
 
 const Navbar = () => {
@@ -65,7 +65,7 @@ const Navbar = () => {
         </svg>
       ),
       label: "Cart",
-      path: "/cart",
+      path: "/home/cart",
     },
     {
       icon: (

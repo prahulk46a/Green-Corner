@@ -8,6 +8,7 @@ import SignUp from "../pages/sign-up/SignUp";
 import Hero from "../utils/HeroSection/Hero";
 import PageNotFound from "../pages/error-page/PageNotFound";
 import ProductDetails from "../utils/product-detail/ProductDetails";
+import Cart from "../pages/cart/Cart";
 
 export let routes = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ export let routes = createBrowserRouter([
       {
         path: "/home/plant-desc",
         element: <ProductDetails />,
+      },
+      {
+        path: "/home/cart",
+        element: <Cart />,
       },
     ],
   },
