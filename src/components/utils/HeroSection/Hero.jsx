@@ -32,11 +32,11 @@ const Hero = () => {
       </div>
 
       <div className=" w-[98%] my-5 rounded-sm  bg-slate-100 shadow-sm">
-        <Suggestions start={6} end={10} text={"Newly Launched"} />
+        <Suggestions start={6} end={11} text={"Newly Launched"} />
       </div>
 
       <div className="w-[98%] my-5 mx-4 rounded-sm  bg-slate-100 shadow-sm ">
-        <Suggestions start={20} end={28} text={"All Products"} />
+        <Suggestions start={20} end={30} text={"All Products"} />
       </div>
     </div>
   );

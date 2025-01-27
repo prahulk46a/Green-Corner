@@ -16,7 +16,7 @@ const Suggestions = ({ start, end, text }) => {
     <div>
       {/* Heading */}
       <div className="flex flex-row justify-between p-5">
-        <h2 className=" text-green-800 md:text-2xl xs:text-xl font-bold  mb-8">
+        <h2 className=" text-green-800 md:ml-12 m-2 md:text-2xl xs:text-xl font-bold  mb-8">
           {text}
         </h2>
 
@@ -31,7 +31,7 @@ const Suggestions = ({ start, end, text }) => {
       </div>
       <div className="container  md:mx-auto  ">
         {/* Grid for displaying plants */}
-        <div className="grid grid-cols-2 justify-around xs:grid-cols-2 sm:grid-cols-3  lg:grid-cols-4 gap-5 ">
+        <div className="grid grid-cols-2  justify-around xs:grid-cols-2 xs2:grid-cols-3 sm:grid-cols-3  lg:grid-cols-5 gap-5 ">
           {displayedPlants.map((plant) => (
             <Card key={plant.id} plant={plant} />
           ))}
