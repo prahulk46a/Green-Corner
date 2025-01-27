@@ -4,7 +4,7 @@ import { useContext } from "react";
 import { CartContextState } from "../../../context/CartContext";
 
 const CartItems = ({ id, image, title, price, sizeOptions }) => {
-  const { cart, removeFromCart } = useContext(CartContextState);
+  const { removeFromCart } = useContext(CartContextState);
   const handleRemove = () => {
     removeFromCart(id);
   };

@@ -15,7 +15,7 @@ const Card = ({ plant }) => {
   };
 
   //Bringing cart state
-  const { cart, addToCart } = useContext(CartContextState);
+  const { addToCart } = useContext(CartContextState);
 
   //Adding current card plant data to cart
   const handleCart = (plant) => {

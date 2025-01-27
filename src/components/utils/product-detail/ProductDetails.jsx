@@ -11,7 +11,7 @@ const ProductDetails = () => {
   const { addToCart } = useContext(CartContextState);
   const { plant } = location.state;
 
-  //To add visual effect after adding to cart
+  // To add visual effect after adding to cart
   const [added, setAdded] = useState(false);
 
   const [selectedImage, setSelectedImage] = useState(plant.primaryImage);
@@ -47,7 +47,7 @@ const ProductDetails = () => {
           {/* Product Image */}
           <div className="flex-1">
             {/* Main Image */}
-            <div className="w-full h-96 overflow-hidden rounded-lg shadow-lg">
+            <div className="w-full xs:h-[450px] md:h-[600px] overflow-hidden rounded-lg shadow-lg">
               <img
                 src={selectedImage}
                 alt={plant.name}
@@ -100,7 +100,7 @@ const ProductDetails = () => {
             <h2 className="text-primary text-3xl font-bold mb-4">
               {plant.name}
             </h2>
-            <Ratings rating={plant.rating}></Ratings>
+            <Ratings rating={plant.rating} />
 
             {/* Size Selection */}
             <div className="my-2">
@@ -122,11 +122,43 @@ const ProductDetails = () => {
 
             <p className="text-lg text-gray-700 mb-4">{plant.description}</p>
 
+            {/* Product Attributes */}
             <ul className="list-disc list-inside text-gray-600 mb-4">
-              <li>Light: Bright, indirect sunlight</li>
-              <li>Water: Weekly, allow soil to dry between watering</li>
-              <li>Size: 10-12 inches tall</li>
+              <h1 className="font-bold">Plant Requirements</h1>
+              <li>Light: {plant.sunlightRequirement}</li>
+              <li>Water: {plant.moistureRequirement}</li>
+              <li>Soil: {plant.soilType}</li>
+              <li>Season: {plant.season}</li>
+              <li>Growth Rate: {plant.growthRate}</li>
+              <li>Pot Size Required: {plant.potSizeRequired}</li>
             </ul>
+
+            {/* Seller Info */}
+            {/* <div className="my-4">
+              <p className="font-semibold">Seller: {plant.sellerName}</p>
+              <p>
+                {plant.sellerAddress.street}, {plant.sellerAddress.city},{" "}
+                {plant.sellerAddress.state} - {plant.sellerAddress.pincode}
+              </p>
+            </div> */}
+
+            {/* Availability */}
+            <div className="my-4">
+              <p className="font-semibold">
+                Availability: {plant.availability}
+              </p>
+              <p>{plant.quantityAvailable} available</p>
+            </div>
+
+            {/* Categories */}
+            <div className="my-4">
+              <p className="font-semibold">Categories:</p>
+              <ul className="list-disc list-inside">
+                {plant.categories.map((category, index) => (
+                  <li key={index}>{category}</li>
+                ))}
+              </ul>
+            </div>
 
             <button
               className={`bg-green-500 hover:bg-green-600 m-5 text-white py-2 px-4 rounded-lg shadow-lg  transition ${
@@ -145,16 +177,15 @@ const ProductDetails = () => {
         {/* Care Instructions */}
         <section className="mt-12">
           <h3 className="text-2xl font-semibold mb-4">Care Instructions</h3>
-          <p className="text-gray-600">
-            Monstera thrives in bright, indirect sunlight. Water weekly,
-            ensuring the topsoil is dry before watering again. Keep in a
-            temperature range of 65°F to 85°F.
-          </p>
+          <p className="text-gray-600">{plant.description}</p>
         </section>
 
-        <br />
-        <br />
-        <br />
+        {/* Shipping and Policies */}
+        <section className="mt-12">
+          <h3 className="text-2xl font-semibold mb-4">Shipping & Policies</h3>
+          <p className="text-gray-600">{plant.shoppingPolicy}</p>
+          <p className="text-gray-600">{plant.refundPolicy}</p>
+        </section>
 
         {/* Reviews */}
         <h1 className="font-semibold text-2xl mb-4">Reviews:</h1>

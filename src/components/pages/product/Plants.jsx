@@ -65,9 +65,12 @@ const Plants = () => {
       </aside>
 
       {/* Main Content */}
-      <div className="flex-grow flex flex-col justify-center bg-slate-100 mt-4 rounded-md shadow-md border border-gray-200 mr-4 mb-2 p-8 overflow-auto">
+      <div className="flex-grow flex flex-col justify-center bg-slate-100 mt-4 rounded-md shadow-md border border-gray-200 mr-4 mb-2 p-8">
         <h2 className="text-2xl text-primary font-bold mb-4">All Products</h2>
-        <div className=" h-[80vh] justify-evenly flex flex-row flex-wrap   pt-8 p-2 overflow-auto">
+        <div
+          id="scrollRemove"
+          className=" h-[80vh] justify-evenly flex flex-row flex-wrap   pt-8 p-2 overflow-auto"
+        >
           {data.allPlants && data.allPlants.length > 0 ? (
             data.allPlants.map((plant) => <Card key={plant.id} plant={plant} />)
           ) : (

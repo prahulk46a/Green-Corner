@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import CartItems from "../../utils/cart-components/cart-Item/CartItems";
-import CartContext, { CartContextState } from "../../context/CartContext";
+import { CartContextState } from "../../context/CartContext";
 import CartSummary from "../../utils/cart-components/CartSummary/CartSummary";
 
 const Cart = () => {
@@ -31,7 +31,7 @@ const Cart = () => {
         </div>
 
         {/* Summary Section */}
-        <div className="bg-gray-100 rounded-md h-[50%] p-4 md:sticky top-0">
+        <div className="rounded-md p-4 md:sticky top-0">
           <CartSummary />
         </div>
       </div>

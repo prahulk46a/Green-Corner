@@ -11,3 +11,7 @@
     transform: translateY();
     box-shadow: 10px;
 }
+
+#scrollRemove::-webkit-scrollbar{
+    display: none;
+}
