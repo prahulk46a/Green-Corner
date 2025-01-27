@@ -4,7 +4,7 @@ import Footer from "../../utils/Footer/Footer";
 import Navbar from "../../utils/navbar/Navbar";
 import { useState } from "react";
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -127,12 +127,12 @@ const Signin = () => {
 
               <p className="text-center text-gray-600 text-sm">
                 Don't have an account?{" "}
-                <a
-                  href="/signup"
+                <Link
+                  to="/signup"
                   className="text-blue-500 hover:underline font-medium"
                 >
                   Sign Up
-                </a>
+                </Link>
               </p>
             </form>
           </div>
