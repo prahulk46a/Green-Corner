@@ -28,7 +28,7 @@ const Card = ({ plant }) => {
   };
 
   return (
-    <div className="bg-white shadow-lg  my-3  rounded-lg overflow-hidden transform transition-transform hover:scale-105 w-full xs:mx-1 xs:w-[175px] sm:w-[230] md:w-[250px] lg:w-[294px] xl:w-[315px] flex flex-col">
+    <div className="bg-white shadow-lg  my-3  rounded-lg overflow-hidden transform transition-transform hover:scale-105 w-full xs:mx-3 xs:w-[140px]  sm:w-[200px] md:w-[200px] lg:w-[200px] xl:w-[230px] 2xl:w-[270px] flex flex-col">
       {/* Image */}
       <img
         src={plant.primaryImage}
@@ -71,7 +71,7 @@ const Card = ({ plant }) => {
 
         <div className=" lg:block">
           <button
-            className={`mt-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition ${
+            className={`mt-2 xs:px-2 xs:py-1 xs:text-md md:px-4 md:py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition ${
               added ? "animate-button-lift" : ""
             }`}
             onClick={() => handleCart(plant)}
