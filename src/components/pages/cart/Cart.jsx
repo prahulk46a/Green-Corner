@@ -4,7 +4,7 @@ import { CartContextState } from "../../context/CartContext";
 import CartSummary from "../../utils/cart-components/CartSummary/CartSummary";
 
 const Cart = () => {
-  //receive cart state {cart} here from cart-context and map on it
+  // Receive cart state {cart} here from cart-context and map on it
   const { cart } = useContext(CartContextState);
 
   return (
@@ -15,8 +15,8 @@ const Cart = () => {
           <h2 className="text-2xl font-bold text-gray-800">Cart</h2>
           <hr className="border-gray-300 mt-4 mb-8" />
           <div className="space-y-4">
-            {cart.map((cartItem, idx) => {
-              return (
+            {cart.length > 0 ? (
+              cart.map((cartItem, idx) => (
                 <CartItems
                   key={idx} // Always add a unique key for list items in React
                   image={cartItem.primaryImage}
@@ -25,8 +25,12 @@ const Cart = () => {
                   id={cartItem.id}
                   sizeOptions={["SM", "MD", "XL", "XXL"]}
                 />
-              );
-            })}
+              ))
+            ) : (
+              <p className="text-center  text-gray-800 text-2xl">
+                Nothing to cart
+              </p>
+            )}
           </div>
         </div>
 

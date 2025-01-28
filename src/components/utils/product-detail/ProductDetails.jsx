@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { HiArrowLeft } from "react-icons/hi";
 import Ratings from "../ratings/Ratings";
 import { useLocation, useNavigate } from "react-router-dom";
@@ -6,6 +6,11 @@ import Reviews from "../reviews/Reviews";
 import { CartContextState } from "../../context/CartContext";
 
 const ProductDetails = () => {
+  //Move on top when clicked on product
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   let navigate = useNavigate();
   let location = useLocation();
   const { addToCart } = useContext(CartContextState);
