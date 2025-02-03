@@ -26,7 +26,9 @@ const Ratings = ({ rating }) => {
       ))}
 
       {/* Numerical Rating */}
-      <span className="ml-2 text-gray-600 text-sm">{rating.toFixed(1)}</span>
+      <span className="ml-2 text-gray-600 text-sm">
+        {Number.isFinite(rating) ? rating.toFixed(1) : "0.0"}
+      </span>
     </div>
   );
 };

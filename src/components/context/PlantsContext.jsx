@@ -9,7 +9,7 @@ const PlantsContext = ({ children }) => {
 
   useEffect(() => {
     axios
-      .get("https://jsonserver-greencorner.onrender.com/plants")
+      .get("http://localhost:3001/plants")
       .then((response) => {
         setAllPlants(response.data);
       })

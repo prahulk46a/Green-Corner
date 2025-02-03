@@ -10,7 +10,7 @@ const Hero = () => {
 
   return (
     <div className="flex flex-col justify-center items-center">
-      <section className="relative flex  justify-center items-center w-full px-2 pb-2  ">
+      <section className="relative flex  justify-center items-center w-90% px-2 pb-2  ">
         {/* Fullscreen Background Image */}
         <img
           src="https://www.pickmyflowers.com/assets/imgs/new/nurserylive-home-page-banner.webp"
@@ -27,15 +27,15 @@ const Hero = () => {
         </button>
       </section>
 
-      <div className="md: w-[98%]  py-5 rounded-full md:text-2xl sm:text-lg text-green-700  font-bold flex justify-center items-center shadow-sm bg-slate-100 overflow-x-hidden">
+      <div className="md: w-[85%]  py-5 rounded-full md:text-2xl sm:text-lg text-green-700  font-bold flex justify-center items-center shadow-sm bg-slate-100 overflow-x-hidden">
         Get 20% off on order above @3999
       </div>
 
-      <div className=" w-[98%] my-5 rounded-sm  bg-slate-100 shadow-sm">
+      <div className=" w-[85%] my-5 rounded-sm  bg-slate-100 shadow-sm">
         <Suggestions start={6} end={11} text={"Newly Launched"} />
       </div>
 
-      <div className="w-[98%] my-5 mx-4 rounded-sm  bg-slate-100 shadow-sm ">
+      <div className="w-[85%] my-5 mx-4 rounded-sm  bg-slate-100 shadow-sm ">
         <Suggestions start={20} end={30} text={"All Products"} />
       </div>
     </div>

@@ -1,8 +1,8 @@
 {
-  "plants":[
+  "plants": [
     {
       "name": "Rose",
-      "id": 1,
+      "id": "1",
       "description": "Roses are beautiful flowering plants belonging to the Rosaceae family. Popular in gardens, they are loved for their vibrant colors and aromatic fragrance. Maharashtra, particularly Pune, has ideal conditions for growing roses due to its moderate climate.",
       "price": 12,
       "rating": 4.5,
@@ -109,11 +109,7 @@
       },
       "availability": "In Stock",
       "quantityAvailable": 100,
-      "categories": [
-        "Outdoor Plants",
-        "Indoor Plants",
-        "Flowering Plants"
-      ],
+      "categories": ["Outdoor Plants", "Indoor Plants", "Flowering Plants"],
       "sunlightRequirement": "Full Sun",
       "moistureRequirement": "Medium",
       "soilType": "Loamy soil",
@@ -125,16 +121,8 @@
       "regionalName": "गुलाब (Gulab)",
       "biologicalName": "Rosa spp.",
       "botanicalName": "Rosa hybrida",
-      "tags": [
-        "Gift Ideas",
-        "Flowering Plants",
-        "Indoor Decor"
-      ],
-      "shippingStates": [
-        "Maharashtra",
-        "Goa",
-        "Karnataka"
-      ],
+      "tags": ["Gift Ideas", "Flowering Plants", "Indoor Decor"],
+      "shippingStates": ["Maharashtra", "Goa", "Karnataka"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-miniature-rose-button-rose-yellow-plant_600x600.jpg?v=1634224134",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-g-rose-orange-plant_600x600.jpg?v=1634227422",
@@ -147,7 +135,7 @@
     },
     {
       "name": "Aloe vera",
-      "id": 2,
+      "id": "2",
       "description": "Aloe vera is a succulent plant species of the genus Aloe. It is widely distributed and considered an invasive species in many world regions. This plant is highly valued for its medicinal and cosmetic properties.",
       "price": 11,
       "rating": 4.1,
@@ -247,11 +235,7 @@
       "sellerName": "Maharashtra Green Nursery",
       "availability": "In Stock",
       "quantityAvailable": 50,
-      "categories": [
-        "Outdoor Plants",
-        "Indoor Plants",
-        "Low Maintenance"
-      ],
+      "categories": ["Outdoor Plants", "Indoor Plants", "Low Maintenance"],
       "sunlightRequirement": "Full Sun",
       "moistureRequirement": "Low",
       "soilType": "Well-drained loamy soil",
@@ -263,11 +247,7 @@
       "regionalName": "Kanchora",
       "biologicalName": "Aloe barbadensis miller",
       "botanicalName": "Aloe vera",
-      "tags": [
-        "House Warming",
-        "Gift Ideas",
-        "Low Maintenance"
-      ],
+      "tags": ["House Warming", "Gift Ideas", "Low Maintenance"],
       "shippingStates": [
         "Maharashtra (India)",
         "Goa (India)",
@@ -285,7 +265,7 @@
     },
     {
       "name": "Peace Lily",
-      "id": 3,
+      "id": "3",
       "description": "Peace Lily Plant is a very popular and very rare indoor flowering houseplant. It is also an excellent air purifier plant",
       "price": 11.5,
       "rating": 4.4,
@@ -426,7 +406,7 @@
     },
     {
       "name": "Snake Plant",
-      "id": 4,
+      "id": "4",
       "description": "The Sansevieria is the perfect addition to any indoor garden setting. It is a stemless evergreen plant.",
       "price": 15,
       "rating": 4.7,
@@ -570,7 +550,7 @@
     },
     {
       "name": "Money Plant",
-      "id": 5,
+      "id": "5",
       "description": "The Money Plant is considered auspicious and is believed to bring prosperity and positive energy. It's a perfect addition to homes and offices.",
       "price": 250,
       "rating": 4.7,
@@ -666,7 +646,7 @@
     },
     {
       "name": "Rubber Plant",
-      "id": 6,
+      "id": "6",
       "description": "The rubber plant (Ficus elastica) is a popular ornamental plant from the Ficus genus. Known for its large, glossy leaves, it’s a great choice for both indoor and outdoor spaces.",
       "price": 799,
       "rating": 3.8,
@@ -787,11 +767,7 @@
       "regionalName": "Rubber Tree",
       "biologicalName": "Ficus elastica",
       "botanicalName": "Ficus elastica",
-      "tags": [
-        "House Warming",
-        "Indoor Gardening",
-        "Office Plants"
-      ],
+      "tags": ["House Warming", "Indoor Gardening", "Office Plants"],
       "shippingStates": [
         "Maharashtra",
         "Goa",
@@ -813,7 +789,7 @@
     },
     {
       "name": "Spider plant",
-      "id": 7,
+      "id": "7",
       "description": "Chlorophytum is an attractive green plant with white stripe variegation. This plant is an excellent indoor as well as an outdoor plant.",
       "price": 550,
       "rating": 4.1,
@@ -913,10 +889,7 @@
       "sellerName": "MaharashtraPlants",
       "availability": "In Stock",
       "quantityAvailable": 50,
-      "categories": [
-        "Indoor Plants",
-        "Air Purifying"
-      ],
+      "categories": ["Indoor Plants", "Air Purifying"],
       "sunlightRequirement": "Indirect Sunlight",
       "moistureRequirement": "Moderate",
       "soilType": "Well-drained, sandy loam",
@@ -928,11 +901,7 @@
       "regionalName": "Makdi Paudha",
       "biologicalName": "Chlorophytum comosum",
       "botanicalName": "Chlorophytum comosum",
-      "tags": [
-        "Air Purifier",
-        "Home Decor",
-        "Low Maintenance"
-      ],
+      "tags": ["Air Purifier", "Home Decor", "Low Maintenance"],
       "shippingStates": [
         "Maharashtra",
         "Goa",
@@ -953,7 +922,7 @@
     },
     {
       "name": "Areca palm",
-      "id": 8,
+      "id": "8",
       "description": "Areca palm is a clump-growing plant with ringed, yellow leaf ribs. The foliage is evergreen, making it an ideal indoor and outdoor plant.",
       "price": 800,
       "rating": 4.4,
@@ -1053,11 +1022,7 @@
       "sellerName": "Maharashtra Seller",
       "availability": "In Stock",
       "quantityAvailable": 50,
-      "categories": [
-        "Outdoor Plants",
-        "Indoor Plants",
-        "Air Purifying Plants"
-      ],
+      "categories": ["Outdoor Plants", "Indoor Plants", "Air Purifying Plants"],
       "sunlightRequirement": "Indirect Sunlight",
       "moistureRequirement": "Medium",
       "soilType": "Well-drained loamy soil",
@@ -1075,9 +1040,7 @@
         "Air Purifiers",
         "Easy Care"
       ],
-      "shippingStates": [
-        "Maharashtra"
-      ],
+      "shippingStates": ["Maharashtra"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-g-areca-palm-plant_600x600.jpg?v=1636456218",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-areca-palm-plant-2_540x720.jpg?v=1637585273",
@@ -1090,7 +1053,7 @@
     },
     {
       "name": "Fiddle Leaf Fig",
-      "id": 9,
+      "id": "9",
       "description": "The fiddle leaf fig from the Ficus genus of trees is an exciting species to grow with larger leaves and is one of the best houseplants for purifying indoor air.",
       "price": 999,
       "rating": 4.7,
@@ -1214,9 +1177,7 @@
         "Air Purifier",
         "Indoor Plant"
       ],
-      "shippingStates": [
-        "Maharashtra (India)"
-      ],
+      "shippingStates": ["Maharashtra (India)"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/ficus-lyrata-bambino-dwarf-fiddle-leaf-fig-plant-in-4inch_10cm_-black-pot-429036_600x600.jpg?v=1692966811",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-ficus-lyrata-bambino-dwarf-fiddle-leaf-fig-plant-1-277792_540x720.jpg?v=1679750031",
@@ -1229,7 +1190,7 @@
     },
     {
       "name": "Boston fern",
-      "id": 10,
+      "id": "10",
       "description": "The Boston fern is the most popular of all ferns grown indoors and has been found to be one of the easiest to care for and maintain that offers beauty and healthy benefits.",
       "price": 500,
       "rating": 3.5,
@@ -1371,7 +1332,7 @@
     },
     {
       "name": "Pothos (Devil's Ivy)",
-      "id": 11,
+      "id": "11",
       "description": "Pothos (Devil's Ivy) plants are best to fill the house with greenery and to bring prosperity and good luck.",
       "price": 300,
       "rating": 3.8,
@@ -1496,9 +1457,7 @@
         "Easy to Grow",
         "Indoor Plants"
       ],
-      "shippingStates": [
-        "Maharashtra (India)"
-      ],
+      "shippingStates": ["Maharashtra (India)"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-money-plant-scindapsus-green-plant-in-4-inch-10-cm-black-pot-224662_600x600.jpg?v=1685021448",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-plant-money-plant-scindapsus-green-plant-in-4.5-inch-11-cm-ronda-no-1110-round-plastic-turquoise-plant-1-661701_540x720.jpg?v=1679750636",
@@ -1511,7 +1470,7 @@
     },
     {
       "name": "Jade Plant",
-      "id": 12,
+      "id": "12",
       "description": "The jade plant (Crassula ovata) is a popular succulent, known for its fleshy, oval-shaped leaves and woody stems. It is also called the money tree or lucky plant, and it is believed to bring prosperity and good fortune. With minimal care, it can thrive indoors, making it a great addition to home decor.",
       "price": 550,
       "rating": 4.5,
@@ -1630,15 +1589,8 @@
       "regionalName": "Jade Plant",
       "biologicalName": "Crassula ovata",
       "botanicalName": "Crassula ovata",
-      "tags": [
-        "Housewarming",
-        "Succulent",
-        "Indoor Plant",
-        "Low Maintenance"
-      ],
-      "shippingStates": [
-        "Maharashtra (India)"
-      ],
+      "tags": ["Housewarming", "Succulent", "Indoor Plant", "Low Maintenance"],
+      "shippingStates": ["Maharashtra (India)"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-jade-plant-elephant-bush-green-succulent-plant-in-4-inch-10-cm-black-pot-434709_600x600.jpg?v=1684935612",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-g-plant-elephant-bush-portulacaria-afra-jade-green-plant-in-4.5-inch-11-cm-ronda-No-1110-round-plastic-green-planter-558634_600x600.jpg?v=1679749890",
@@ -1651,7 +1603,7 @@
     },
     {
       "name": "Lucky Bamboo",
-      "id": 13,
+      "id": "13",
       "description": "Gift the auspicious Lucky Bamboo plant, traditionally known for bringing good fortune and positivity. It comes with a beautiful glass vase, a Lord Ganesha idol, and pebbles, making it a perfect addition to any home or office.",
       "price": 450,
       "rating": 4.4,
@@ -1795,7 +1747,7 @@
     },
     {
       "name": "ZZ Plant",
-      "id": 14,
+      "id": "14",
       "description": "The ZZ Plant (Zamioculcas zamiifolia) is a popular, easy-to-care-for houseplant known for its shiny, dark green leaves. It thrives in low light conditions and requires minimal watering, making it an ideal plant for beginners or busy individuals. With its unique and elegant appearance, it is often used in home and office décor.",
       "price": 399,
       "rating": 4.7,
@@ -1895,11 +1847,7 @@
       "sellerName": "Seller 14",
       "availability": "In Stock",
       "quantityAvailable": 50,
-      "categories": [
-        "Indoor Plants",
-        "Low Maintenance Plants",
-        "Gift Ideas"
-      ],
+      "categories": ["Indoor Plants", "Low Maintenance Plants", "Gift Ideas"],
       "sunlightRequirement": "Indirect Sunlight",
       "moistureRequirement": "Low",
       "soilType": "Well-drained loamy soil",
@@ -1911,11 +1859,7 @@
       "regionalName": "ZZ Plant",
       "biologicalName": "Zamioculcas zamiifolia",
       "botanicalName": "Zamioculcas zamiifolia",
-      "tags": [
-        "House Warming",
-        "Gift Ideas",
-        "Low Maintenance"
-      ],
+      "tags": ["House Warming", "Gift Ideas", "Low Maintenance"],
       "shippingStates": [
         "Maharashtra",
         "Goa",
@@ -1936,7 +1880,7 @@
     },
     {
       "name": "Philodendron",
-      "id": 15,
+      "id": "15",
       "description": "Philodendron is a popular indoor plant known for its heart-shaped leaves. It thrives in bright, indirect light and is ideal for adding greenery to homes and offices. Easy to care for, it is low maintenance and perfect for beginners.",
       "price": 250,
       "rating": 4.7,
@@ -2036,10 +1980,7 @@
       "sellerName": "Shivendra Nursery",
       "availability": "Out of Stock",
       "quantityAvailable": 0,
-      "categories": [
-        "Outdoor Plants",
-        "Indoor Plants"
-      ],
+      "categories": ["Outdoor Plants", "Indoor Plants"],
       "sunlightRequirement": "Partial Shade",
       "moistureRequirement": "Moderate",
       "soilType": "Well-drained loamy soil",
@@ -2076,7 +2017,7 @@
     },
     {
       "name": "Syngonium (Arrowhead Plant)",
-      "id": 16,
+      "id": "16",
       "description": "Syngonium, also known as the Arrowhead Plant, is a versatile and low-maintenance houseplant. It is a popular indoor plant due to its attractive heart-shaped leaves and air-purifying qualities. This plant thrives in indirect light and adds a touch of nature to your home with its elegant foliage.",
       "price": 250,
       "rating": 3.8,
@@ -2176,11 +2117,7 @@
       "sellerName": "Seller 16",
       "availability": "In Stock",
       "quantityAvailable": 50,
-      "categories": [
-        "Indoor Plants",
-        "Low Maintenance",
-        "Air Purifying"
-      ],
+      "categories": ["Indoor Plants", "Low Maintenance", "Air Purifying"],
       "sunlightRequirement": "Indirect Light",
       "moistureRequirement": "Low",
       "soilType": "Well-drained loamy soil",
@@ -2199,9 +2136,7 @@
         "Easy to Grow",
         "Popular Plant"
       ],
-      "shippingStates": [
-        "Maharashtra (India)"
-      ],
+      "shippingStates": ["Maharashtra (India)"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-g-plants-syngonium-podophyllum-silver-pearl-plant-764560_600x600.jpg?v=1679751755",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-plants-syngonium-podophyllum-silver-pearl-plant-1-182532_540x720.jpg?v=1679751755",
@@ -2214,7 +2149,7 @@
     },
     {
       "name": "Calathea",
-      "id": 17,
+      "id": "17",
       "description": "Calatheas are known for their striking, vibrant patterned leaves. They require high humidity and indirect light to thrive. These plants are often referred to as 'prayer plants' due to their unique behavior of folding their leaves at night.",
       "price": 500,
       "rating": 4.1,
@@ -2339,9 +2274,7 @@
         "Easy to Grow",
         "Air Cleaner Plants"
       ],
-      "shippingStates": [
-        "Maharashtra (India)"
-      ],
+      "shippingStates": ["Maharashtra (India)"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-g-calathea-concinna-freddie-calathea-concinna-plant-1-382960_600x600.jpg?v=1679749390",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-calathea-concinna-freddie-calathea-concinna-plant-1-249830_540x720.jpg?v=1679749390",
@@ -2354,7 +2287,7 @@
     },
     {
       "name": "Begonia",
-      "id": 18,
+      "id": "18",
       "description": "Begonias are a beautiful genus of flowering plants, commonly found in subtropical and tropical regions. In Maharashtra, these plants thrive indoors, especially in cooler areas. Known for their vibrant and ornamental leaves, begonias are perfect for adding a touch of nature to any home, making them popular as indoor houseplants.",
       "price": 400,
       "rating": 4.4,
@@ -2472,14 +2405,8 @@
       "regionalName": "Rangoli Phool",
       "biologicalName": "Begonia semperflorens",
       "botanicalName": "Begonia spp.",
-      "tags": [
-        "House Warming",
-        "Gifts",
-        "Indoor Gardening"
-      ],
-      "shippingStates": [
-        "Maharashtra (India)"
-      ],
+      "tags": ["House Warming", "Gifts", "Indoor Gardening"],
+      "shippingStates": ["Maharashtra (India)"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-hardy-begonia-plant_600x600.jpg?v=1634223205",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-hardy-begonia-plant_600x600.jpg?v=1634223205",
@@ -2492,7 +2419,7 @@
     },
     {
       "name": "Croton",
-      "id": 19,
+      "id": "19",
       "description": "Crotons are vibrant houseplants known for their striking and colorful foliage. They are perfect for bright spaces like living rooms, dining rooms, and offices, adding energy and life to the environment.",
       "price": 350,
       "rating": 4.7,
@@ -2611,10 +2538,7 @@
       "regionalName": "Variegated Croton",
       "biologicalName": "Codiaeum variegatum",
       "botanicalName": "Codiaeum variegatum",
-      "tags": [
-        "Housewarming Gifts",
-        "Gift Ideas"
-      ],
+      "tags": ["Housewarming Gifts", "Gift Ideas"],
       "shippingStates": [
         "Maharashtra (India)",
         "Goa (India)",
@@ -2633,7 +2557,7 @@
     },
     {
       "name": "Aglaonema (Chinese Evergreen)",
-      "id": 20,
+      "id": "20",
       "description": "Aglaonema, also known as Chinese Evergreen, is a popular indoor plant with colorful foliage. It's easy to care for and thrives in low light conditions, making it a perfect choice for homes and offices.",
       "price": 300,
       "rating": 3.5,
@@ -2776,7 +2700,7 @@
     },
     {
       "name": "Anthurium",
-      "id": 21,
+      "id": "21",
       "description": "Anthuriums, often called 'flamingo flowers,' are perfect for brightening up your space. Their vibrant red, pink, or white blooms paired with lush green leaves make them an eye-catching addition to any indoor garden. Ideal for homes and offices.",
       "price": 650,
       "rating": 4.2,
@@ -2876,10 +2800,7 @@
       "sellerName": "Seller Maharashtra",
       "availability": "In Stock",
       "quantityAvailable": 50,
-      "categories": [
-        "Indoor Plants",
-        "House Plants"
-      ],
+      "categories": ["Indoor Plants", "House Plants"],
       "sunlightRequirement": "Indirect Light",
       "moistureRequirement": "Moderate",
       "soilType": "Well-drained loamy soil",
@@ -2897,9 +2818,7 @@
         "Low Maintenance",
         "Indoor Plants"
       ],
-      "shippingStates": [
-        "Maharashtra"
-      ],
+      "shippingStates": ["Maharashtra"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-anthurium-andreanum-princess-amalia-elegance-plant_600x600.jpg?v=1634213376",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-anthurium-andreanum-princess-amalia-elegance-plant_600x600.jpg?v=1634213376",
@@ -2912,7 +2831,7 @@
     },
     {
       "name": "Bird of Paradise",
-      "id": 22,
+      "id": "22",
       "description": "A stunning and vibrant plant, the Bird of Paradise adds an exotic touch to any garden or living space. Its striking, bird-like flowers are a true showstopper, perfect for both indoor and outdoor settings.",
       "price": 1800,
       "rating": 4.1,
@@ -3012,11 +2931,7 @@
       "sellerName": "Seller 22",
       "availability": "In Stock",
       "quantityAvailable": 50,
-      "categories": [
-        "Outdoor Plants",
-        "Indoor Plants",
-        "Exotic Plants"
-      ],
+      "categories": ["Outdoor Plants", "Indoor Plants", "Exotic Plants"],
       "sunlightRequirement": "Full Sun",
       "moistureRequirement": "Low",
       "soilType": "Well-drained loamy soil",
@@ -3055,7 +2970,7 @@
     },
     {
       "name": "Monstera Deliciosa",
-      "id": 23,
+      "id": "23",
       "description": "Monstera deliciosa, also known as the Swiss cheese plant, is a popular houseplant native to tropical rainforests. It features large, glossy green leaves with unique splits and holes, making it an attractive and easy-to-care-for plant, perfect for adding a touch of greenery to any space.",
       "price": 450,
       "rating": 4.4,
@@ -3155,11 +3070,7 @@
       "sellerName": "Seller 23",
       "availability": "In Stock",
       "quantityAvailable": 50,
-      "categories": [
-        "Indoor Plants",
-        "Low Maintenance",
-        "Air Cleaner Plants"
-      ],
+      "categories": ["Indoor Plants", "Low Maintenance", "Air Cleaner Plants"],
       "sunlightRequirement": "Indirect sunlight",
       "moistureRequirement": "Medium",
       "soilType": "Well-drained, fertile soil",
@@ -3198,7 +3109,7 @@
     },
     {
       "name": "Dieffenbachia (Dumb Cane)",
-      "id": 24,
+      "id": "24",
       "description": "Dieffenbachia is a popular indoor plant known for its attractive, large, variegated leaves. It thrives in indirect light and is a great addition to any home or office, adding a lush, tropical feel with minimal care.",
       "price": 450,
       "rating": 4.7,
@@ -3315,13 +3226,8 @@
       "regionalName": "Swarna Patta",
       "biologicalName": "Dieffenbachia spp.",
       "botanicalName": "Dieffenbachia",
-      "tags": [
-        "House Warming",
-        "Office Decor"
-      ],
-      "shippingStates": [
-        "Maharashtra (India)"
-      ],
+      "tags": ["House Warming", "Office Decor"],
+      "shippingStates": ["Maharashtra (India)"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-dieffenbachia-compacta-perfecta-plant_600x600.jpg?v=1634218562",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-dieffenbachia-compacta-perfecta-plant_600x600.jpg?v=1634218562",
@@ -3334,7 +3240,7 @@
     },
     {
       "name": "Dracaena Marginata",
-      "id": 25,
+      "id": "25",
       "description": "Dracaena marginata, also known as the Dragon Tree, is a popular and resilient houseplant with striking, long, slender leaves. It thrives indoors with minimal maintenance and is perfect for homes, offices, and malls. Its ability to purify the air adds to its popularity.",
       "price": 650,
       "rating": 3.5,
@@ -3452,13 +3358,8 @@
       "regionalName": "Dragon Tree",
       "biologicalName": "Dracaena marginata",
       "botanicalName": "Dracaena marginata",
-      "tags": [
-        "Housewarming",
-        "Gift Ideas"
-      ],
-      "shippingStates": [
-        "Maharashtra (India)"
-      ],
+      "tags": ["Housewarming", "Gift Ideas"],
+      "shippingStates": ["Maharashtra (India)"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-g-marginata-dracaena-marginata-plant_600x600.jpg?v=1634223794",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-marginata-dracaena-marginata-plant-2_540x720.jpg?v=1634223790",
@@ -3471,7 +3372,7 @@
     },
     {
       "name": "Cactus (Various Types)",
-      "id": 26,
+      "id": "26",
       "description": "Echinopsis is a large genus of cacti native to South America, sometimes known as hedgehog cactus. They are known and admired for their spectacular flowers and adaptability to low-maintenance care, making them a favorite among plant enthusiasts.",
       "price": 550,
       "rating": 3.8,
@@ -3590,14 +3491,8 @@
       "regionalName": "Sonal",
       "biologicalName": "Echinopsis species",
       "botanicalName": "Echinopsis spp.",
-      "tags": [
-        "House Warming",
-        "Gift Ideas",
-        "Low Maintenance"
-      ],
-      "shippingStates": [
-        "Maharashtra (India)"
-      ],
+      "tags": ["House Warming", "Gift Ideas", "Low Maintenance"],
+      "shippingStates": ["Maharashtra (India)"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-g-echinopsis-species-cactus-plant_600x600.jpg?v=1634218499",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-echinopsis-species-cactus-plant-2_540x720.jpg?v=1634218496",
@@ -3610,7 +3505,7 @@
     },
     {
       "name": "Sansevieria (Snake Plant) - Hahnii",
-      "id": 27,
+      "id": "27",
       "description": "Sansevieria trifasciata Hahnii, also known as the Snake Plant, is a hardy, low-maintenance plant that is perfect for indoor environments. Its thick, upright leaves feature green and light yellow stripes, making it a striking addition to any room. It is known for purifying the air and requiring minimal water, making it an ideal plant for beginners.",
       "price": 350,
       "rating": 4.5,
@@ -3735,9 +3630,7 @@
         "Indoor Plants",
         "Air Purifier"
       ],
-      "shippingStates": [
-        "Maharashtra (India)"
-      ],
+      "shippingStates": ["Maharashtra (India)"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-plants-sansevieria-trifasciata-hahnii-snake-plant-plant-16969295855756_600x600.jpg?v=1634228043",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-plants-sansevieria-trifasciata-hahnii-snake-plant-plant-16969295855756_600x600.jpg?v=1634228043",
@@ -3750,7 +3643,7 @@
     },
     {
       "name": "Maranta (Prayer Plant)",
-      "id": 28,
+      "id": "28",
       "description": "A beautiful, low-maintenance indoor plant with striking patterned leaves. Known for its prayer-like leaf movements, it thrives in bright indirect light and adds a unique touch to any room.",
       "price": 450,
       "rating": 4.4,
@@ -3850,9 +3743,7 @@
       "sellerName": "Shree Hari Nursery",
       "availability": "In Stock",
       "quantityAvailable": 50,
-      "categories": [
-        "Indoor Plants"
-      ],
+      "categories": ["Indoor Plants"],
       "sunlightRequirement": "Bright Indirect Light",
       "moistureRequirement": "Low",
       "soilType": "Well-drained Potting Mix",
@@ -3890,7 +3781,7 @@
     },
     {
       "name": "Alocasia (Elephant Ear)",
-      "id": 29,
+      "id": "29",
       "description": "Alocasia, also known as Elephant Ear, is a stunning tropical plant known for its large, heart-shaped leaves. It thrives in indoor gardens, bringing a touch of the tropics to your space. Its low-maintenance nature makes it ideal for beginner gardeners. Proper care will reward you with lush, glossy leaves that add vibrancy and beauty to any room.",
       "price": 650,
       "rating": 4.7,
@@ -3990,10 +3881,7 @@
       "sellerName": "Shivam Nursery",
       "availability": "In Stock",
       "quantityAvailable": 50,
-      "categories": [
-        "Indoor Plants",
-        "Air Purifying Plants"
-      ],
+      "categories": ["Indoor Plants", "Air Purifying Plants"],
       "sunlightRequirement": "Indirect light",
       "moistureRequirement": "Moderate",
       "soilType": "Well-drained fertile soil",
@@ -4031,7 +3919,7 @@
     },
     {
       "name": "Hibiscus",
-      "id": 30,
+      "id": "30",
       "description": "Hibiscus is a vibrant, tropical plant that adds a stunning splash of color to your garden or home. Known for its large, beautiful flowers, it's perfect for brightening up spaces with minimal effort. Hibiscus thrives in sunny locations and is a low-maintenance plant that's great for beginners.",
       "price": 350,
       "rating": 3.5,
@@ -4131,11 +4019,7 @@
       "sellerName": "Hindu Plant Company",
       "availability": "Out of Stock",
       "quantityAvailable": 0,
-      "categories": [
-        "Outdoor Plants",
-        "Indoor Plants",
-        "Low Maintenance"
-      ],
+      "categories": ["Outdoor Plants", "Indoor Plants", "Low Maintenance"],
       "sunlightRequirement": "Full Sun",
       "moistureRequirement": "Moderate",
       "soilType": "Well-drained loamy soil",
@@ -4147,9 +4031,7 @@
       "regionalName": "Gudhal",
       "biologicalName": "Hibiscus rosa-sinensis",
       "botanicalName": "Hibiscus rosa-sinensis",
-      "tags": [
-        "House Warming"
-      ],
+      "tags": ["House Warming"],
       "shippingStates": [
         "Maharashtra (India)",
         "Goa (India)",
@@ -4169,7 +4051,7 @@
     },
     {
       "name": "Bougainvillea",
-      "id": 31,
+      "id": "31",
       "description": "Bougainvillea is a hardy and vibrant plant perfect for warm climates like Maharashtra. It thrives in sunny areas and can be guided along walls or fences with proper support. Its vibrant flowers make it an excellent choice for beautifying homes and gardens.",
       "price": 15,
       "rating": 3.8,
@@ -4286,11 +4168,7 @@
       "regionalName": "बोगनवेल",
       "biologicalName": "Bougainvillea glabra",
       "botanicalName": "Bougainvillea spectabilis",
-      "tags": [
-        "Balcony Decor",
-        "Affordable Plants",
-        "Garden Charm"
-      ],
+      "tags": ["Balcony Decor", "Affordable Plants", "Garden Charm"],
       "shippingStates": [
         "Pune (Maharashtra)",
         "Mumbai (Maharashtra)",
@@ -4313,7 +4191,7 @@
     },
     {
       "name": "Chrysanthemum",
-      "id": 32,
+      "id": "32",
       "description": "Chrysanthemum, also known as Shevanti in Maharashtra, is a beloved plant for its vibrant flowers that brighten up both gardens and indoor spaces. It is highly favored for its low maintenance and adaptability to local conditions.",
       "price": 20,
       "rating": 4.1,
@@ -4437,9 +4315,7 @@
         "Housewarming",
         "Balcony Garden"
       ],
-      "shippingStates": [
-        "Maharashtra (India)"
-      ],
+      "shippingStates": ["Maharashtra (India)"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-g-plants-shevanti-yellow-plant-949958_600x600.jpg?v=1679751737",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-g-plants-shevanti-yellow-plant-949958_600x600.jpg?v=1679751737",
@@ -4452,7 +4328,7 @@
     },
     {
       "name": "Jasmine",
-      "id": 33,
+      "id": "33",
       "description": "Jasmine flowers, known as 'Mogra' in Maharashtra, hold a special place in Indian households for their beauty and calming fragrance. A symbol of purity and positivity, it is a popular plant for both homes and gardens.",
       "price": 150,
       "rating": 4.4,
@@ -4593,7 +4469,7 @@
     },
     {
       "name": "Lavender",
-      "id": 34,
+      "id": "34",
       "description": "Lavender is a fragrant and versatile plant, perfect for enhancing your garden or home. Known for its calming scent and low-maintenance nature, this plant thrives in warm climates and brings a touch of elegance to any space.",
       "price": 150,
       "rating": 4.7,
@@ -4737,7 +4613,7 @@
     },
     {
       "name": "Mint",
-      "id": 35,
+      "id": "35",
       "description": "Mint, known as Pudina in India, is a versatile aromatic herb used widely in cooking, beverages, and home remedies. The plant is easy to grow and thrives in a variety of conditions, making it a must-have for every home garden. Its fresh, green leaves not only enhance flavor but also have medicinal properties.",
       "price": 20,
       "rating": 3.5,
@@ -4837,11 +4713,7 @@
       "sellerName": "Mahalakshmi Plants",
       "availability": "Out of Stock",
       "quantityAvailable": 0,
-      "categories": [
-        "Herbs",
-        "Medicinal Plants",
-        "Culinary Plants"
-      ],
+      "categories": ["Herbs", "Medicinal Plants", "Culinary Plants"],
       "sunlightRequirement": "Partial Sunlight",
       "moistureRequirement": "Moderate",
       "soilType": "Loamy and Well-Drained",
@@ -4861,9 +4733,7 @@
         "Easy to Grow",
         "Low Maintenance"
       ],
-      "shippingStates": [
-        "Maharashtra"
-      ],
+      "shippingStates": ["Maharashtra"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-plants-common-mint-plant-pudina-plant-16968793620620_600x600.jpg?v=1634216630",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-plants-common-mint-plant-pudina-plant-16968793620620_600x600.jpg?v=1634216630",
@@ -4876,7 +4746,7 @@
     },
     {
       "name": "Basil",
-      "id": 36,
+      "id": "36",
       "description": "Basil, known as Tulsi in many regions, is a sacred plant in India, revered for its medicinal and aromatic properties. It thrives in warm climates and is often grown in homes and gardens as a symbol of purity. Its leaves are known for their distinctive aroma and health benefits, making it a popular choice in Ayurveda and traditional cooking.",
       "price": 20,
       "rating": 3.8,
@@ -4976,10 +4846,7 @@
       "sellerName": "Ganesh Enterprises",
       "availability": "In Stock",
       "quantityAvailable": 50,
-      "categories": [
-        "Herbs",
-        "Ayurvedic Plants"
-      ],
+      "categories": ["Herbs", "Ayurvedic Plants"],
       "sunlightRequirement": "Partial to Full Sun",
       "moistureRequirement": "Moderate to High",
       "soilType": "Loamy soil with good drainage",
@@ -4991,11 +4858,7 @@
       "regionalName": "पवित्र तुलसी",
       "biologicalName": "Ocimum tenuiflorum",
       "botanicalName": "Ocimum sanctum",
-      "tags": [
-        "Ayurveda",
-        "Medicinal Plant",
-        "Herbal Remedy"
-      ],
+      "tags": ["Ayurveda", "Medicinal Plant", "Herbal Remedy"],
       "shippingStates": [
         "Pune (Maharashtra)",
         "Mumbai (Maharashtra)",
@@ -5015,7 +4878,7 @@
     },
     {
       "name": "Holy Basil",
-      "id": 37,
+      "id": "37",
       "description": "A versatile plant that is well-suited for warm climates and thrives in semi-arid conditions. Known for its aromatic properties and vibrant green foliage, it is often used in home gardens and landscaping projects. Its small, tubular flowers attract bees and butterflies, adding beauty and biodiversity.",
       "price": 20,
       "rating": 4.1,
@@ -5115,11 +4978,7 @@
       "sellerName": "Shree Garden Supplies",
       "availability": "In Stock",
       "quantityAvailable": 50,
-      "categories": [
-        "Herbal Plants",
-        "Indoor Plants",
-        "Medicinal Plants"
-      ],
+      "categories": ["Herbal Plants", "Indoor Plants", "Medicinal Plants"],
       "sunlightRequirement": "Full Sun to Partial Shade",
       "moistureRequirement": "Moderate",
       "soilType": "Loamy, Well-Drained Soil",
@@ -5131,11 +4990,7 @@
       "regionalName": "वृंदावन तुलसी",
       "biologicalName": "Ocimum tenuiflorum",
       "botanicalName": "Holy Basil",
-      "tags": [
-        "Medicinal",
-        "Spiritual",
-        "Easy Care"
-      ],
+      "tags": ["Medicinal", "Spiritual", "Easy Care"],
       "shippingStates": [
         "Mumbai (Maharashtra, India)",
         "Pune (Maharashtra, India)",
@@ -5156,7 +5011,7 @@
     },
     {
       "name": "Madhumalti Dwarf",
-      "id": 38,
+      "id": "38",
       "description": "The Rangoon Creeper is a beautiful flowering plant vine. This perennial vine is perfect for evergreen and colorful beauty in your garden.",
       "price": 20,
       "rating": 4.1,
@@ -5256,11 +5111,7 @@
       "sellerName": "Shree Garden Supplies",
       "availability": "In Stock",
       "quantityAvailable": 50,
-      "categories": [
-        "Herbal Plants",
-        "Indoor Plants",
-        "Medicinal Plants"
-      ],
+      "categories": ["Herbal Plants", "Indoor Plants", "Medicinal Plants"],
       "sunlightRequirement": "Full Sun to Partial Shade",
       "moistureRequirement": "Moderate",
       "soilType": "Loamy, Well-Drained Soil",
@@ -5272,11 +5123,7 @@
       "regionalName": "वृंदावन तुलसी",
       "biologicalName": "Ocimum tenuiflorum",
       "botanicalName": "Holy Basil",
-      "tags": [
-        "Medicinal",
-        "Spiritual",
-        "Easy Care"
-      ],
+      "tags": ["Medicinal", "Spiritual", "Easy Care"],
       "shippingStates": [
         "Mumbai (Maharashtra, India)",
         "Pune (Maharashtra, India)",
@@ -5297,7 +5144,7 @@
     },
     {
       "name": "Dill",
-      "id": 39,
+      "id": "39",
       "description": "Dill is a versatile herb known for its feathery leaves and aromatic flavor, widely used in Indian cuisine for tempering, garnishing, and pickling. It is also valued for its digestive and medicinal properties.",
       "price": 25,
       "rating": 4.7,
@@ -5443,7 +5290,7 @@
     },
     {
       "name": "Parsley",
-      "id": 40,
+      "id": "40",
       "description": "Parsley is a versatile herb with a fresh, mild flavor. It is widely used in culinary dishes as a garnish and flavor enhancer, adding vibrant green color and health benefits. Rich in vitamins A, C, and K, it aids in digestion and supports the immune system.",
       "price": 50,
       "rating": 4.5,
@@ -5569,9 +5416,7 @@
         "Exotic Plants",
         "Easy to Grow"
       ],
-      "shippingStates": [
-        "Maharashtra (India)"
-      ],
+      "shippingStates": ["Maharashtra (India)"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-seeds-parsley-moss-curled-herb-seeds-16969106718860_600x600.jpg?v=1634204508",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-seeds-parsley-moss-curled-herb-seeds-16969106718860_600x600.jpg?v=1634204508",
@@ -5584,7 +5429,7 @@
     },
     {
       "name": "Coriander Microgreens",
-      "id": 41,
+      "id": "41",
       "description": "Coriander microgreens are packed with vitamins and minerals, making them an excellent addition to your diet. They are usually harvested when the first true leaves appear. Perfect for health-conscious individuals and easy to grow indoors or outdoors.",
       "price": 40,
       "rating": 3.8,
@@ -5712,10 +5557,7 @@
         "Easy to Grow",
         "Air Cleaner Plants"
       ],
-      "shippingStates": [
-        "Maharashtra (India)",
-        "Gujarat (India)"
-      ],
+      "shippingStates": ["Maharashtra (India)", "Gujarat (India)"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-seeds-cilantro-split-seeds-imported-coriander-microgreen-seeds-16968784314508_540x540_34e4b945-417a-44d2-ac44-1a1ae6f2e508_600x600.jpg?v=1634203641",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-seeds-cilantro-split-seeds-imported-coriander-microgreen-seeds-16968784314508_540x540_34e4b945-417a-44d2-ac44-1a1ae6f2e508_600x600.jpg?v=1634203641",
@@ -5728,7 +5570,7 @@
     },
     {
       "name": "Lemon Balm",
-      "id": 42,
+      "id": "42",
       "description": "Melissa officinalis, commonly known as lemon balm, is a bushy herbaceous perennial in the mint family. It has fragrant, lemon-scented leaves and is known for its calming properties, often used in teas and herbal remedies. It thrives in sunny gardens and is easy to grow in Maharashtra's climate.",
       "price": 200,
       "rating": 4.1,
@@ -5828,10 +5670,7 @@
       "sellerName": "Shivaji Enterprises",
       "availability": "In Stock",
       "quantityAvailable": 50,
-      "categories": [
-        "Outdoor Plants",
-        "Herbs"
-      ],
+      "categories": ["Outdoor Plants", "Herbs"],
       "sunlightRequirement": "Full Sun",
       "moistureRequirement": "Moderate",
       "soilType": "Well-drained loamy soil",
@@ -5843,13 +5682,8 @@
       "regionalName": "Lemon Tulsi",
       "biologicalName": "Melissa officinalis",
       "botanicalName": "Melissa officinalis",
-      "tags": [
-        "House Warming",
-        "Herb Garden"
-      ],
-      "shippingStates": [
-        "Maharashtra (India)"
-      ],
+      "tags": ["House Warming", "Herb Garden"],
+      "shippingStates": ["Maharashtra (India)"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-plants-lemon-balm-plant_600x600.jpg?v=1634227083",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-plants-lemon-balm-plant_600x600.jpg?v=1634227083",
@@ -5862,7 +5696,7 @@
     },
     {
       "name": "Curry Leaves",
-      "id": 43,
+      "id": "43",
       "description": "Murraya koenigii is an aromatic evergreen shrub known for its pungent, curry-flavored leaves, commonly used in Indian cuisine. It thrives in tropical and subtropical climates, providing both culinary and medicinal benefits.",
       "price": 45,
       "rating": 4.4,
@@ -5962,10 +5796,7 @@
       "sellerName": "Shree Hari Nursery",
       "availability": "In Stock",
       "quantityAvailable": 50,
-      "categories": [
-        "Outdoor Plants",
-        "Indoor Plants"
-      ],
+      "categories": ["Outdoor Plants", "Indoor Plants"],
       "sunlightRequirement": "Partial Shade",
       "moistureRequirement": "Low",
       "soilType": "Well-drained loamy soil",
@@ -5977,10 +5808,7 @@
       "regionalName": "Karipatta",
       "biologicalName": "Murraya koenigii",
       "botanicalName": "Murraya koenigii",
-      "tags": [
-        "House Warming",
-        "Gift Ideas"
-      ],
+      "tags": ["House Warming", "Gift Ideas"],
       "shippingStates": [
         "Maharashtra (India)",
         "Goa (India)",
@@ -5999,7 +5827,7 @@
     },
     {
       "name": "Curry Plant",
-      "id": 44,
+      "id": "44",
       "description": "Curry patta (Murraya koenigii) is a popular herb in Indian cuisine, known for its distinct aromatic leaves used in various dishes. It thrives in tropical and subtropical climates and is highly valued for its medicinal properties.",
       "price": 45,
       "rating": 4.7,
@@ -6099,11 +5927,7 @@
       "sellerName": "Shree Hari Nurseries",
       "availability": "In Stock",
       "quantityAvailable": 50,
-      "categories": [
-        "Outdoor Plants",
-        "Indoor Plants",
-        "Low Maintenance"
-      ],
+      "categories": ["Outdoor Plants", "Indoor Plants", "Low Maintenance"],
       "sunlightRequirement": "Full Sun",
       "moistureRequirement": "Low",
       "soilType": "Well-drained loamy soil",
@@ -6115,11 +5939,7 @@
       "regionalName": "Kadi Patta",
       "biologicalName": "Murraya koenigii",
       "botanicalName": "Murraya koenigii",
-      "tags": [
-        "House Warming",
-        "Gift Ideas",
-        "Low Maintenance"
-      ],
+      "tags": ["House Warming", "Gift Ideas", "Low Maintenance"],
       "shippingStates": [
         "Maharashtra (India)",
         "Goa (India)",
@@ -6139,7 +5959,7 @@
     },
     {
       "name": "Tulsi",
-      "id": 45,
+      "id": "45",
       "description": "Tulsi, also known as Holy Basil, is a sacred plant in Hinduism with numerous health benefits. It is renowned for its antimicrobial and antiviral properties, and is often used for spiritual rituals, as well as for its ability to purify the air.",
       "price": 250,
       "rating": 4.5,
@@ -6283,7 +6103,7 @@
     },
     {
       "name": "Daffodils",
-      "id": 46,
+      "id": "46",
       "description": "The pack contains Daffodil, Narcissus (Cheerfulness, Yellow) - 5 Bulbs. These flowers thrive beautifully in both indoor and outdoor settings, adding a splash of cheerful yellow to any garden or home decor.",
       "price": 250,
       "rating": 3.8,
@@ -6427,7 +6247,7 @@
     },
     {
       "name": "Tulips",
-      "id": 47,
+      "id": "47",
       "description": "Tulips are vibrant spring flowers that brighten up any space with their colorful blooms. These perennial plants are easy to care for and perfect for both indoor and outdoor gardens.",
       "price": 250,
       "rating": 4.5,
@@ -6573,7 +6393,7 @@
     },
     {
       "name": "Rose",
-      "id": 48,
+      "id": "48",
       "description": "Roses are among the most popular flowers, known for their beauty and variety. They can be grown as climbing vines or as bushes and are available in a wide range of colors. A great addition to any garden or home decor.",
       "price": 250,
       "rating": 4.4,
@@ -6693,12 +6513,8 @@
       "regionalName": "Shevanti",
       "biologicalName": "Rosa spp.",
       "botanicalName": "Rosa",
-      "tags": [
-        "House Warming"
-      ],
-      "shippingStates": [
-        "Maharashtra"
-      ],
+      "tags": ["House Warming"],
+      "shippingStates": ["Maharashtra"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-miniature-rose-button-rose-yellow-plant_600x600.jpg?v=1634224134",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-g-rose-orange-plant_600x600.jpg?v=1634227422",
@@ -6711,7 +6527,7 @@
     },
     {
       "name": "Orchid",
-      "id": 49,
+      "id": "49",
       "description": "Dendrobium Orchids come in a variety of colors, each adding vibrancy and beauty to your garden. These orchids are easy to care for and thrive in moderate light and humidity.",
       "price": 350,
       "rating": 4.7,
@@ -6830,12 +6646,8 @@
       "regionalName": "Orchids",
       "biologicalName": "Dendrobium spp.",
       "botanicalName": "Dendrobium",
-      "tags": [
-        "House Warming"
-      ],
-      "shippingStates": [
-        "Maharashtra"
-      ],
+      "tags": ["House Warming"],
+      "shippingStates": ["Maharashtra"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-plants-phalaenopsis-orchid-any-variety-white-plant-16969183330444_600x600.jpg?v=1634225844",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-plants-phalaenopsis-orchid-any-variety-white-plant-16969183330444_600x600.jpg?v=1634225844",
@@ -6848,7 +6660,7 @@
     },
     {
       "name": "Geraniums",
-      "id": 50,
+      "id": "50",
       "description": "Geranium (Pelargonium peltatum) is a colorful summer bloomer with ivy-like foliage and cascading blooms. This hardy plant thrives in both garden beds and containers, making it ideal for both indoor and outdoor spaces. Geraniums are perfect for adding a splash of color to balconies, window boxes, and gardens, and they work well in mixed baskets with other vibrant annuals.",
       "price": 225,
       "rating": 3.5,
@@ -6948,10 +6760,7 @@
       "sellerName": "Shivansh Nursery",
       "availability": "Out of Stock",
       "quantityAvailable": 0,
-      "categories": [
-        "Outdoor Plants",
-        "Indoor Plants"
-      ],
+      "categories": ["Outdoor Plants", "Indoor Plants"],
       "sunlightRequirement": "Full Sun",
       "moistureRequirement": "Low",
       "soilType": "Well-drained loamy soil",
@@ -6963,14 +6772,8 @@
       "regionalName": "Gulabi Genda",
       "biologicalName": "Pelargonium peltatum",
       "botanicalName": "Pelargonium peltatum",
-      "tags": [
-        "House Warming",
-        "Gift Ideas",
-        "Low Maintenance"
-      ],
-      "shippingStates": [
-        "Maharashtra"
-      ],
+      "tags": ["House Warming", "Gift Ideas", "Low Maintenance"],
+      "shippingStates": ["Maharashtra"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-g-geranium-ivy-geranium-creeper-baby-pink-plant-754345_600x600.jpg?v=1679750119",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-geranium-ivy-geranium-creeper-baby-pink-plant-1-242634_540x720.jpg?v=1679750119",
@@ -6983,7 +6786,7 @@
     },
     {
       "name": "Sunflowers",
-      "id": 51,
+      "id": "51",
       "description": "Sunflowers are the perfect addition to any garden or indoor space, known for their bright, cheerful yellow petals that symbolize summer. Each sunflower packet contains 50 high-quality seeds, ideal for adding vibrant beauty to your home or garden.",
       "price": 25,
       "rating": 4.7,
@@ -7107,9 +6910,7 @@
         "Exotic Plants",
         "Bright Flowers"
       ],
-      "shippingStates": [
-        "Maharashtra (India)"
-      ],
+      "shippingStates": ["Maharashtra (India)"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-seeds-sunflower-minature-flower-seeds-16969123725452_600x600.jpg?v=1634204985",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-seeds-sunflower-minature-flower-seeds-16969123725452_600x600.jpg?v=1634204985",
@@ -7122,7 +6923,7 @@
     },
     {
       "name": "Petunias",
-      "id": 52,
+      "id": "52",
       "description": "Petunias are one of the most popular and vibrant flowering plants. Known for their easy care and colorful blooms, they are perfect for brightening up any space.",
       "price": 45,
       "rating": 4.5,
@@ -7265,7 +7066,7 @@
     },
     {
       "name": "Marigolds",
-      "id": 53,
+      "id": "53",
       "description": "Marigold is a popular flowering plant known for its vibrant blooms and ease of cultivation. It thrives in both indoor and outdoor settings, adding a burst of color to gardens and homes alike.",
       "price": 45,
       "rating": 4.4,
@@ -7411,7 +7212,7 @@
     },
     {
       "name": "Zinnias",
-      "id": 54,
+      "id": "54",
       "description": "Zinnias are one of the easiest annuals to grow. They are fast-growing and bloom profusely with vibrant, colorful flowers, making them perfect for brightening up your garden or indoor spaces.",
       "price": 50,
       "rating": 4.7,
@@ -7530,9 +7331,7 @@
       "regionalName": "Zinnia",
       "biologicalName": "Zinnia elegans",
       "botanicalName": "Zinnia elegans",
-      "tags": [
-        "House Warming"
-      ],
+      "tags": ["House Warming"],
       "shippingStates": [
         "Maharashtra",
         "Goa",
@@ -7552,7 +7351,7 @@
     },
     {
       "name": "Dahlia",
-      "id": 55,
+      "id": "55",
       "description": "Dahlia is a beautiful flowering plant that blooms in a wide variety of vibrant colors. It adds a lot of charm to your garden with its large, colorful flowers and can thrive in both indoor and outdoor settings.",
       "price": 60,
       "rating": 4.5,
@@ -7672,10 +7471,7 @@
       "regionalName": "Gulab",
       "biologicalName": "Dahlia pinnata",
       "botanicalName": "Dahlia spp.",
-      "tags": [
-        "House Warming",
-        "Gift Ideas"
-      ],
+      "tags": ["House Warming", "Gift Ideas"],
       "shippingStates": [
         "Maharashtra (India)",
         "Gujarat (India)",
@@ -7695,7 +7491,7 @@
     },
     {
       "name": "Hydrangea",
-      "id": 56,
+      "id": "56",
       "description": "Hydrangea macrophylla is a perennial shrub known for its large, vibrant flowers that bloom in a variety of colors. It's a perfect addition to gardens and homes, thriving in both sun and partial shade.",
       "price": 450,
       "rating": 3.8,
@@ -7795,9 +7591,7 @@
       "sellerName": "Shree Vastu Creations",
       "availability": "In Stock",
       "quantityAvailable": 50,
-      "categories": [
-        "Outdoor Plants"
-      ],
+      "categories": ["Outdoor Plants"],
       "sunlightRequirement": "Partial Sun to Full Sun",
       "moistureRequirement": "Moderate",
       "soilType": "Well-drained loamy soil",
@@ -7809,14 +7603,8 @@
       "regionalName": "Kachnar",
       "biologicalName": "Hydrangea macrophylla",
       "botanicalName": "Hydrangea macrophylla",
-      "tags": [
-        "House Warming",
-        "Gift Ideas",
-        "Low Maintenance"
-      ],
-      "shippingStates": [
-        "Maharashtra"
-      ],
+      "tags": ["House Warming", "Gift Ideas", "Low Maintenance"],
+      "shippingStates": ["Maharashtra"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-hydrangea-macrophylla-blue-plant_a36409e1-111d-42ee-b9f0-acdb8b24e739_600x600.jpg?v=1634222086",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-hydrangea-macrophylla-blue-plant_a36409e1-111d-42ee-b9f0-acdb8b24e739_600x600.jpg?v=1634222086",
@@ -7829,7 +7617,7 @@
     },
     {
       "name": "Carnation",
-      "id": 57,
+      "id": "57",
       "description": "Carnation is a beautiful flowering plant, known for its colorful blooms. It’s a symbol of love and admiration, making it an ideal addition to any garden or home décor. With its long-lasting flowers, it can thrive in both outdoor and indoor spaces, adding vibrant color year-round.",
       "price": 80,
       "rating": 4.5,
@@ -7929,10 +7717,7 @@
       "sellerName": "Shree Ganesh Nursery",
       "availability": "In Stock",
       "quantityAvailable": 50,
-      "categories": [
-        "Outdoor Plants",
-        "Indoor Plants"
-      ],
+      "categories": ["Outdoor Plants", "Indoor Plants"],
       "sunlightRequirement": "Partial Shade",
       "moistureRequirement": "Moderate",
       "soilType": "Well-drained loamy soil",
@@ -7950,9 +7735,7 @@
         "Low Maintenance",
         "Exotic Plants"
       ],
-      "shippingStates": [
-        "Maharashtra"
-      ],
+      "shippingStates": ["Maharashtra"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-carnation-any-color_600x600.jpg?v=1634215476",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-carnation-any-color_600x600.jpg?v=1634215476",
@@ -7965,7 +7748,7 @@
     },
     {
       "name": "Lantana",
-      "id": 58,
+      "id": "58",
       "description": "Lantana plants are known for their vibrant, multi-colored flowers and are often grown for ornamental purposes. They are very fragrant and attract butterflies, making them a popular choice in gardens.",
       "price": 150,
       "rating": 4.4,
@@ -8065,11 +7848,7 @@
       "sellerName": "Madhav Nursery",
       "availability": "In Stock",
       "quantityAvailable": 50,
-      "categories": [
-        "Outdoor Plants",
-        "Indoor Plants",
-        "Low Maintenance"
-      ],
+      "categories": ["Outdoor Plants", "Indoor Plants", "Low Maintenance"],
       "sunlightRequirement": "Full Sun",
       "moistureRequirement": "Low",
       "soilType": "Well-drained loamy soil",
@@ -8088,9 +7867,7 @@
         "Exotic Plants",
         "Easy to Grow"
       ],
-      "shippingStates": [
-        "Maharashtra"
-      ],
+      "shippingStates": ["Maharashtra"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-g-plants-lantana-camara-lavender-plant_600x600.jpg?v=1635576251",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-lantana-camara-lavender-plant-1-854459_540x720.jpg?v=1679750455",
@@ -8103,7 +7880,7 @@
     },
     {
       "name": "Ixora",
-      "id": 59,
+      "id": "59",
       "description": "Ixora is a vibrant flowering plant that produces clusters of star-shaped flowers throughout the year, available in colors like red, yellow, pink, orange, and peach. Known for its easy care and striking appearance, it's ideal for both indoor and outdoor spaces.",
       "price": 350,
       "rating": 4.7,
@@ -8246,7 +8023,7 @@
     },
     {
       "name": "Oleander",
-      "id": 60,
+      "id": "60",
       "description": "Nerium indicum, commonly known as Kaner in India, is a flowering shrub native to the Indian subcontinent, known for its vibrant flowers. It belongs to the Apocynaceae family and is often used for ornamental purposes in gardens and as a hedge.",
       "price": 80,
       "rating": 4.5,
@@ -8364,12 +8141,8 @@
       "regionalName": "Kanher",
       "biologicalName": "Nerium indicum",
       "botanicalName": "Nerium oleander",
-      "tags": [
-        "House Warming"
-      ],
-      "shippingStates": [
-        "Maharashtra"
-      ],
+      "tags": ["House Warming"],
+      "shippingStates": ["Maharashtra"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-g-kaner-dwarf-nerium-oleander-peach-dwarf-plant-176241_600x600.jpg?v=1679750398",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-kaner-dwarf-nerium-oleander-peach-dwarf-plant-1-627261_540x720.jpg?v=1679750398",
@@ -8382,7 +8155,7 @@
     },
     {
       "name": "Salvia",
-      "id": 61,
+      "id": "61",
       "description": "Salvia is a popular flowering plant that blooms in vibrant shades, perfect for both indoor and outdoor settings. Known for its low maintenance, it thrives with minimal care while adding a splash of color to any space. The compact growth makes it ideal for smaller gardens or patio pots.",
       "price": 80,
       "rating": 4.2,
@@ -8501,13 +8274,8 @@
       "regionalName": "Bhor",
       "biologicalName": "Salvia splendens",
       "botanicalName": "Salvia splendens",
-      "tags": [
-        "House Warming",
-        "Gift Ideas"
-      ],
-      "shippingStates": [
-        "Maharashtra"
-      ],
+      "tags": ["House Warming", "Gift Ideas"],
+      "shippingStates": ["Maharashtra"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-plants-salvia-splendens-red-plant-16969292218508_600x600.jpg?v=1634227919",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-plants-salvia-splendens-red-plant-16969292218508_600x600.jpg?v=1634227919",
@@ -8520,7 +8288,7 @@
     },
     {
       "name": "Sage",
-      "id": 62,
+      "id": "62",
       "description": "Sage is an aromatic herb that is well-known for its medicinal properties and ornamental use. It has soft, silvery-green leaves and produces purple or blue flowers. It thrives in full sun and is an excellent choice for gardens and indoor spaces alike.",
       "price": 60,
       "rating": 4.1,
@@ -8640,11 +8408,7 @@
       "regionalName": "Sage",
       "biologicalName": "Salvia officinalis",
       "botanicalName": "Salvia officinalis",
-      "tags": [
-        "House Warming",
-        "Gift Ideas",
-        "Low Maintenance"
-      ],
+      "tags": ["House Warming", "Gift Ideas", "Low Maintenance"],
       "shippingStates": [
         "Maharashtra (India)",
         "Goa (India)",
@@ -8666,7 +8430,7 @@
     },
     {
       "name": "Bamboo Palm",
-      "id": 63,
+      "id": "63",
       "description": "The Bamboo Palm (Chamaedorea microspadix) is a beautiful, low-maintenance indoor plant known for its vibrant green leaves and air-purifying qualities. Perfect for beginners, it thrives in low light and moderate watering conditions. A great addition to any home or office space.",
       "price": 750,
       "rating": 4.4,
@@ -8766,10 +8530,7 @@
       "sellerName": "Sri Krishna Nursery",
       "availability": "In Stock",
       "quantityAvailable": 50,
-      "categories": [
-        "Indoor Plants",
-        "Air Purifying Plants"
-      ],
+      "categories": ["Indoor Plants", "Air Purifying Plants"],
       "sunlightRequirement": "Indirect Light",
       "moistureRequirement": "Moderate",
       "soilType": "Well-drained loamy soil",
@@ -8788,9 +8549,7 @@
         "Air Purifying",
         "Indoor Plants"
       ],
-      "shippingStates": [
-        "Maharashtra"
-      ],
+      "shippingStates": ["Maharashtra"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-chamaedorea-microspadix-hardy-bamboo-palm-pl_600x600.jpg?v=1634215874",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-chamaedorea-microspadix-hardy-bamboo-palm-pl_600x600.jpg?v=1634215874",
@@ -8803,7 +8562,7 @@
     },
     {
       "name": "Sago Palm",
-      "id": 64,
+      "id": "64",
       "description": "Enhance your garden or home with a beautiful Sago Palm. Known for its lush fronds, it thrives in tropical conditions and adds an exotic touch to any space.",
       "price": 850,
       "rating": 4.7,
@@ -8903,10 +8662,7 @@
       "sellerName": "HinduVeda Nursery",
       "availability": "In Stock",
       "quantityAvailable": 50,
-      "categories": [
-        "Outdoor Plants",
-        "Indoor Plants"
-      ],
+      "categories": ["Outdoor Plants", "Indoor Plants"],
       "sunlightRequirement": "Full Sun",
       "moistureRequirement": "Low",
       "soilType": "Well-drained loamy soil",
@@ -8925,9 +8681,7 @@
         "Exotic Plants",
         "Easy to Grow"
       ],
-      "shippingStates": [
-        "Maharashtra"
-      ],
+      "shippingStates": ["Maharashtra"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-cycas-plant-sago-palm-cycas-revoluta-plant_600x600.jpg?v=1634217372",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-cycas-plant-sago-palm-cycas-revoluta-plant_600x600.jpg?v=1634217372",
@@ -8940,7 +8694,7 @@
     },
     {
       "name": "Asparagus Fern",
-      "id": 65,
+      "id": "65",
       "description": "Asparagus Fern is a hardy and low-maintenance plant that thrives with minimal care, making it perfect for beginners. Known for its lush, feathery foliage, it adds beauty and life to any space.",
       "price": 350,
       "rating": 4.5,
@@ -9040,11 +8794,7 @@
       "sellerName": "Shree Krishna Nursery",
       "availability": "Out of Stock",
       "quantityAvailable": 0,
-      "categories": [
-        "Outdoor Plants",
-        "Indoor Plants",
-        "Low Maintenance"
-      ],
+      "categories": ["Outdoor Plants", "Indoor Plants", "Low Maintenance"],
       "sunlightRequirement": "Partial Shade",
       "moistureRequirement": "Low",
       "soilType": "Well-drained loamy soil",
@@ -9064,9 +8814,7 @@
         "Easy to Grow",
         "Air Cleaner Plants"
       ],
-      "shippingStates": [
-        "Maharashtra"
-      ],
+      "shippingStates": ["Maharashtra"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-g-asparagus-meyeri-plant_600x600.jpg?v=1636458595",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-asparagus-meyeri-plant-1-675329_540x720.jpg?v=1679749104",
@@ -9079,7 +8827,7 @@
     },
     {
       "name": "Peperomia",
-      "id": 66,
+      "id": "66",
       "description": "Peperomia plants are hardy and adaptable, thriving in low-light indoor environments. They have thick, succulent-like leaves that store water, making them perfect for beginner gardeners. Many varieties of Peperomia are native to tropical regions, and they are commonly found as epiphytes growing on other plants or in moist environments.",
       "price": 120,
       "rating": 3.8,
@@ -9196,13 +8944,8 @@
       "regionalName": "Patta Vaali",
       "biologicalName": "Peperomia obtusifolia",
       "botanicalName": "Peperomia obtusifolia",
-      "tags": [
-        "House Warming",
-        "Beginner Friendly"
-      ],
-      "shippingStates": [
-        "Maharashtra"
-      ],
+      "tags": ["House Warming", "Beginner Friendly"],
+      "shippingStates": ["Maharashtra"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-peperomia-obtusifolia-succulent-plant-in-4-inch-10-cm-black-pot-725461_600x600.jpg?v=1684847799",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-peperomia-obtusifolia-plant-1-378650_540x720.jpg?v=1679750816",
@@ -9215,7 +8958,7 @@
     },
     {
       "name": "Coleus",
-      "id": 67,
+      "id": "67",
       "description": "Coleus is a popular ornamental plant known for its vibrant and colorful foliage. It thrives in bright, indirect sunlight and is commonly grown as a houseplant or in shaded garden beds. The plant is low maintenance and perfect for adding a burst of color to any indoor or outdoor space.",
       "price": 55,
       "rating": 4.5,
@@ -9333,10 +9076,7 @@
       "regionalName": "Shinde Ranjani",
       "biologicalName": "Coleus blumei",
       "botanicalName": "Coleus blumei",
-      "tags": [
-        "House Warming",
-        "Gift Ideas"
-      ],
+      "tags": ["House Warming", "Gift Ideas"],
       "shippingStates": [
         "Maharashtra",
         "Gujarat",
@@ -9355,7 +9095,7 @@
     },
     {
       "name": "Ficus Benjamina",
-      "id": 68,
+      "id": "68",
       "description": "An elegant evergreen tree, Ficus Benjamina is a popular choice for both home and office spaces due to its tolerance for low light and easy care. It thrives in indoor environments and brings a touch of nature with its glossy leaves and graceful appearance.",
       "price": 2500,
       "rating": 4.4,
@@ -9474,12 +9214,7 @@
       "regionalName": "Vata",
       "biologicalName": "Ficus benjamina",
       "botanicalName": "Ficus benjamina",
-      "tags": [
-        "Home Decor",
-        "Indoor Plants",
-        "Low Maintenance",
-        "Gift Ideas"
-      ],
+      "tags": ["Home Decor", "Indoor Plants", "Low Maintenance", "Gift Ideas"],
       "shippingStates": [
         "Maharashtra",
         "Karnataka",
@@ -9499,7 +9234,7 @@
     },
     {
       "name": "Ficus Elastica",
-      "id": 69,
+      "id": "69",
       "description": "Ficus elastica, commonly known as the rubber plant, is a popular ornamental plant from the Ficus genus. Known for its shiny, broad leaves, it adds a touch of greenery to any indoor space. This low-maintenance plant thrives in moderate light and requires minimal care, making it perfect for homes and offices.",
       "price": 650,
       "rating": 4.7,
@@ -9625,9 +9360,7 @@
         "Low Maintenance",
         "Exotic Plants"
       ],
-      "shippingStates": [
-        "Maharashtra"
-      ],
+      "shippingStates": ["Maharashtra"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-g-plants-rubber-tree-rubber-plant-ficus-elastica-plant_600x600.jpg?v=1680766173",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-g-plants-rubber-tree-rubber-plant-ficus-elastica-plant_600x600.jpg?v=1680766173",
@@ -9640,7 +9373,7 @@
     },
     {
       "name": "Creeping Fig",
-      "id": 70,
+      "id": "70",
       "description": "The creeping fig (Ficus pumila) is a fast-growing, low-maintenance climbing plant commonly grown for its attractive foliage. It's perfect for both indoor and outdoor spaces and adds a touch of greenery to any area.",
       "price": 60,
       "rating": 4.7,
@@ -9740,9 +9473,7 @@
       "sellerName": "Shree Vinayak Plants",
       "availability": "Out of Stock",
       "quantityAvailable": 0,
-      "categories": [
-        "Outdoor Plants"
-      ],
+      "categories": ["Outdoor Plants"],
       "sunlightRequirement": "Full Sun",
       "moistureRequirement": "Low",
       "soilType": "Well-drained loamy soil",
@@ -9780,7 +9511,7 @@
     },
     {
       "name": "Golden Barrel Cactus",
-      "id": 71,
+      "id": "71",
       "description": "A striking cactus with brilliant golden-yellow spines flushed with pink. Perfect for rock gardens, walls, or as a ground cover. Known for its low-maintenance nature and drought tolerance.",
       "price": 950,
       "rating": 3.8,
@@ -9880,10 +9611,7 @@
       "sellerName": "Shree Krishna Plants",
       "availability": "In Stock",
       "quantityAvailable": 50,
-      "categories": [
-        "Outdoor Plants",
-        "Indoor Plants"
-      ],
+      "categories": ["Outdoor Plants", "Indoor Plants"],
       "sunlightRequirement": "Partial Shade",
       "moistureRequirement": "Low",
       "soilType": "Well-drained loamy soil",
@@ -9903,9 +9631,7 @@
         "Easy to Grow",
         "Air Cleaner Plants"
       ],
-      "shippingStates": [
-        "Maharashtra"
-      ],
+      "shippingStates": ["Maharashtra"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-g-japanese-golden-ogon-sedum-plant_600x600.jpg?v=1634222580",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-japanese-golden-ogon-sedum-plant-1_540x720.jpg?v=1634222578",
@@ -9918,7 +9644,7 @@
     },
     {
       "name": "Euphorbia (Crown of Thorns)",
-      "id": 72,
+      "id": "72",
       "description": "Euphorbia is a stunning succulent with vibrant flowers, often blooming year-round. Known for its resilience and low maintenance, it thrives with minimal care, making it perfect for beginners.",
       "price": 350,
       "rating": 4.1,
@@ -10018,11 +9744,7 @@
       "sellerName": "Shree Horticulture",
       "availability": "In Stock",
       "quantityAvailable": 50,
-      "categories": [
-        "Outdoor Plants",
-        "Indoor Plants",
-        "Low Maintenance"
-      ],
+      "categories": ["Outdoor Plants", "Indoor Plants", "Low Maintenance"],
       "sunlightRequirement": "Full Sun",
       "moistureRequirement": "Moderate",
       "soilType": "Well-drained loamy soil",
@@ -10034,14 +9756,8 @@
       "regionalName": "Kaantali Phool",
       "biologicalName": "Euphorbia milii",
       "botanicalName": "Euphorbia milii",
-      "tags": [
-        "House Warming",
-        "Indoor Decoration",
-        "Low Maintenance"
-      ],
-      "shippingStates": [
-        "Maharashtra"
-      ],
+      "tags": ["House Warming", "Indoor Decoration", "Low Maintenance"],
+      "shippingStates": ["Maharashtra"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-g-euphorbia-white-pink-succulent-plant_600x600.jpg?v=1635854676",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-euphorbia-white-pink-succulent-plant-1-396737_540x720.jpg?v=1679749892",
@@ -10054,7 +9770,7 @@
     },
     {
       "name": "Haworthia",
-      "id": 73,
+      "id": "73",
       "description": "Haworthia is a charming succulent plant that thrives in low light conditions, making it an excellent choice for indoor spaces or shaded outdoor areas.",
       "price": 250,
       "rating": 4.4,
@@ -10171,13 +9887,8 @@
       "regionalName": "Haworthia",
       "biologicalName": "Haworthia attenuata",
       "botanicalName": "Haworthia attenuata",
-      "tags": [
-        "House Warming",
-        "Gift Ideas"
-      ],
-      "shippingStates": [
-        "Maharashtra (India)"
-      ],
+      "tags": ["House Warming", "Gift Ideas"],
+      "shippingStates": ["Maharashtra (India)"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-g-haworthia-attenuata-succulent-plant_600x600.jpg?v=1634221215",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-haworthia-attenuata-succulent-plant-1_540x720.jpg?v=1634221213",
@@ -10190,7 +9901,7 @@
     },
     {
       "name": "Echeveria",
-      "id": 74,
+      "id": "74",
       "description": "Echeveria is a popular genus of succulent plants in the Crassulaceae family. Known for their rosette-shaped leaves, they are native to semi-desert areas in Central America and Mexico, thriving in low moisture and full sunlight.",
       "price": 75,
       "rating": 4.7,
@@ -10308,14 +10019,8 @@
       "regionalName": "Marathi: Gulabi Patta",
       "biologicalName": "Echeveria elegans",
       "botanicalName": "Echeveria elegans",
-      "tags": [
-        "House Warming",
-        "Gift Ideas",
-        "Low Maintenance"
-      ],
-      "shippingStates": [
-        "Maharashtra (India)"
-      ],
+      "tags": ["House Warming", "Gift Ideas", "Low Maintenance"],
+      "shippingStates": ["Maharashtra (India)"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-g-echeveria-elegans-rose-succulent-plant_600x600.jpg?v=1634218430",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-g-echeveria-elegans-rose-succulent-plant_600x600.jpg?v=1634218430",
@@ -10328,7 +10033,7 @@
     },
     {
       "name": "Kalanchoe",
-      "id": 75,
+      "id": "75",
       "description": "Kalanchoe is a hardy succulent, native to Madagascar. Known for its vibrant, thick leaves and ability to thrive indoors and outdoors in suitable climates, it is a favorite among beginner gardeners for its low maintenance and resilience.",
       "price": 350,
       "rating": 4.5,
@@ -10453,9 +10158,7 @@
         "Low Maintenance",
         "Exotic Plants"
       ],
-      "shippingStates": [
-        "Maharashtra"
-      ],
+      "shippingStates": ["Maharashtra"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-g-plant-kalanchoe-red-plant-in-5-inch-13-cm-grower-round-plastic-black-pot-775800_600x600.jpg?v=1679750397",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-plant-kalanchoe-red-plant-in-5-inch-13-cm-grower-round-plastic-black-pot-2-263842_540x720.jpg?v=1679750397",
@@ -10468,7 +10171,7 @@
     },
     {
       "name": "Sedum",
-      "id": 76,
+      "id": "76",
       "description": "Sedum, commonly known as 'Stonecrop', is a hardy succulent plant that thrives in full sun with low moisture requirements. It features fleshy, water-storing leaves and star-shaped flowers that bloom in late summer and fall, making it an excellent choice for both indoor and outdoor spaces.",
       "price": 200,
       "rating": 3.8,
@@ -10595,9 +10298,7 @@
         "Exotic Plants",
         "Easy to Grow"
       ],
-      "shippingStates": [
-        "Maharashtra (India)"
-      ],
+      "shippingStates": ["Maharashtra (India)"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-g-sedum-adolphii-succulent-plant_600x600.jpg?v=1634228198",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-g-sedum-adolphii-succulent-plant_600x600.jpg?v=1634228198",
@@ -10610,7 +10311,7 @@
     },
     {
       "name": "Plumeria (Frangipani)",
-      "id": 77,
+      "id": "77",
       "description": "Transform your sunny terrace or garden into a tropical paradise with the vibrant and fragrant Plumeria. This evergreen beauty is a perfect addition to any space, offering stunning flowers and a calming atmosphere.",
       "price": 650,
       "rating": 4.1,
@@ -10710,9 +10411,7 @@
       "sellerName": "Hindu Plant Nursery",
       "availability": "In Stock",
       "quantityAvailable": 50,
-      "categories": [
-        "Outdoor Plants"
-      ],
+      "categories": ["Outdoor Plants"],
       "sunlightRequirement": "Partial Shade",
       "moistureRequirement": "Moderate",
       "soilType": "Well-drained loamy soil",
@@ -10751,7 +10450,7 @@
     },
     {
       "name": "Gardenia",
-      "id": 78,
+      "id": "78",
       "description": "Gardenia is a genus of flowering plants in the coffee family, native to tropical and subtropical regions. Known for its glossy, dark green leaves and aromatic, creamy-white flowers that bloom in clusters, Gardenia adds elegance to both indoor and outdoor spaces. It requires moderate maintenance and thrives in bright, indirect sunlight.",
       "price": 299,
       "rating": 4.4,
@@ -10851,10 +10550,7 @@
       "sellerName": "Shree Garden Enterprises",
       "availability": "In Stock",
       "quantityAvailable": 50,
-      "categories": [
-        "Outdoor Plants",
-        "Indoor Plants"
-      ],
+      "categories": ["Outdoor Plants", "Indoor Plants"],
       "sunlightRequirement": "Full Sun",
       "moistureRequirement": "Moderate",
       "soilType": "Well-drained loamy soil",
@@ -10866,14 +10562,8 @@
       "regionalName": "Gulabjadi",
       "biologicalName": "Gardenia jasminoides",
       "botanicalName": "Gardenia jasminoides",
-      "tags": [
-        "House Warming",
-        "Gift",
-        "Indoor Decor"
-      ],
-      "shippingStates": [
-        "Maharashtra"
-      ],
+      "tags": ["House Warming", "Gift", "Indoor Decor"],
+      "shippingStates": ["Maharashtra"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-g-gardenia-ananta-plant-723969_600x600.jpg?v=1679750052",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-gardenia-ananta-plant-1-565644_540x720.jpg?v=1679750052",
@@ -10886,7 +10576,7 @@
     },
     {
       "name": "Camellia",
-      "id": 79,
+      "id": "79",
       "description": "Camellia, commonly known as tea plant, is prized for its leaves that produce a popular beverage consumed worldwide for its health benefits and stimulant properties. Known for its rich foliage and fragrant flowers, it is often grown as an ornamental shrub.",
       "price": 799,
       "rating": 4.7,
@@ -10986,11 +10676,7 @@
       "sellerName": "Shree Ganesha Nursery",
       "availability": "In Stock",
       "quantityAvailable": 50,
-      "categories": [
-        "Outdoor Plants",
-        "Indoor Plants",
-        "Low Maintenance"
-      ],
+      "categories": ["Outdoor Plants", "Indoor Plants", "Low Maintenance"],
       "sunlightRequirement": "Partial Shade",
       "moistureRequirement": "Low",
       "soilType": "Well-drained loamy soil",
@@ -11002,13 +10688,8 @@
       "regionalName": "Chai Paatra",
       "biologicalName": "Camellia sinensis",
       "botanicalName": "Camellia sinensis",
-      "tags": [
-        "House Warming",
-        "Gift Ideas"
-      ],
-      "shippingStates": [
-        "Maharashtra"
-      ],
+      "tags": ["House Warming", "Gift Ideas"],
+      "shippingStates": ["Maharashtra"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-plants-camellia-sinensis-plant-16968681685132_600x600.jpg?v=1634215353",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-plants-camellia-sinensis-plant-16968681685132_600x600.jpg?v=1634215353",
@@ -11021,7 +10702,7 @@
     },
     {
       "name": "Sweet Alyssum",
-      "id": 80,
+      "id": "80",
       "description": "Sweet Alyssum is a fragrant, low-growing plant known for its white, pink, or purple flowers. It's perfect for borders, containers, and hanging baskets, thriving in full sun and well-drained soil. Easy to maintain, it's ideal for both beginners and seasoned gardeners.",
       "price": 120,
       "rating": 4.5,
@@ -11138,14 +10819,8 @@
       "regionalName": "Chandani",
       "biologicalName": "Lobularia maritima",
       "botanicalName": "Lobularia maritima",
-      "tags": [
-        "House Warming",
-        "Gift Ideas",
-        "Low Maintenance"
-      ],
-      "shippingStates": [
-        "Maharashtra"
-      ],
+      "tags": ["House Warming", "Gift Ideas", "Low Maintenance"],
+      "shippingStates": ["Maharashtra"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-seeds-gerbera-micro-mini-mixed-color-flower-seeds-16969073918092_600x600.jpg?v=1634203962",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-seeds-gerbera-micro-mini-mixed-color-flower-seeds-16969073918092_600x600.jpg?v=1634203962",
@@ -11158,7 +10833,7 @@
     },
     {
       "name": "Pansies",
-      "id": 81,
+      "id": "81",
       "description": "Pansies, known for their vibrant and beautiful flowers, are perfect for adding a splash of color to gardens, patios, and living rooms. These flowers are a hybrid of the wild European Viola tricolour and are easy to grow, thriving in moderate sunlight and well-drained soil. They are loved for their low maintenance and versatility.",
       "price": 75,
       "rating": 4.2,
@@ -11282,9 +10957,7 @@
         "Low Maintenance",
         "Exotic Plants"
       ],
-      "shippingStates": [
-        "Maharashtra (India)"
-      ],
+      "shippingStates": ["Maharashtra (India)"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-seeds-pansy-f1-scarlet-red-blotch-flower-seeds-16969103966348_600x600.jpg?v=1634204465",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-seeds-pansy-f1-scarlet-red-blotch-flower-seeds-16969103966348_600x600.jpg?v=1634204465",
@@ -11297,7 +10970,7 @@
     },
     {
       "name": "Pansies",
-      "id": 82,
+      "id": "82",
       "description": "Pansies, known for their vibrant and beautiful flowers, are perfect for adding a splash of color to gardens, patios, and living rooms. These flowers are a hybrid of the wild European Viola tricolour and are easy to grow, thriving in moderate sunlight and well-drained soil. They are loved for their low maintenance and versatility.",
       "price": 75,
       "rating": 4.2,
@@ -11421,9 +11094,7 @@
         "Low Maintenance",
         "Exotic Plants"
       ],
-      "shippingStates": [
-        "Maharashtra (India)"
-      ],
+      "shippingStates": ["Maharashtra (India)"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-seeds-pansy-f1-scarlet-red-blotch-flower-seeds-16969103966348_600x600.jpg?v=1634204465",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-seeds-pansy-f1-scarlet-red-blotch-flower-seeds-16969103966348_600x600.jpg?v=1634204465",
@@ -11436,7 +11107,7 @@
     },
     {
       "name": "Verbena",
-      "id": 83,
+      "id": "83",
       "description": "Verbena is a vibrant flowering plant known for its beautiful blooms that enhance any garden. It is an ideal choice for both beginners and seasoned gardeners due to its low maintenance and fast growth.",
       "price": 35.5,
       "rating": 4.4,
@@ -11582,7 +11253,7 @@
     },
     {
       "name": "Gaillardia",
-      "id": 84,
+      "id": "84",
       "description": "1 packet contains Gaillardia F1 Finest Mixed - 50 Seeds. Known for its vibrant flowers and easy maintenance, this plant thrives in gardens and pots.",
       "price": 65,
       "rating": 4.7,
@@ -11682,9 +11353,7 @@
       "sellerName": "Shree Ganesha Nursery",
       "availability": "In Stock",
       "quantityAvailable": 50,
-      "categories": [
-        "Outdoor Plants"
-      ],
+      "categories": ["Outdoor Plants"],
       "sunlightRequirement": "Full Sun",
       "moistureRequirement": "Moderate",
       "soilType": "Well-drained loamy soil",
@@ -11696,12 +11365,8 @@
       "regionalName": "Gulchaadi",
       "biologicalName": "Gaillardia × grandiflora",
       "botanicalName": "Gaillardia × grandiflora",
-      "tags": [
-        "House Warming"
-      ],
-      "shippingStates": [
-        "Maharashtra"
-      ],
+      "tags": ["House Warming"],
+      "shippingStates": ["Maharashtra"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-seeds-gaillardia-f1-finest-mixed-color-flower-seeds-16969073000588_600x600.jpg?v=1634203912",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-seeds-gaillardia-f1-finest-mixed-color-flower-seeds-16969073000588_600x600.jpg?v=1634203912",
@@ -11714,7 +11379,7 @@
     },
     {
       "name": "Snapdragons",
-      "id": 85,
+      "id": "85",
       "description": "Snapdragons, known for their dragon-like flowers, thrive as seasonal plants and add vibrancy to any garden or indoor space. Easy to maintain and visually appealing, they are a popular choice among gardening enthusiasts.",
       "price": 45,
       "rating": 3.5,
@@ -11814,10 +11479,7 @@
       "sellerName": "Ganesh Nursery",
       "availability": "Out of Stock",
       "quantityAvailable": 0,
-      "categories": [
-        "Seasonal Plants",
-        "Flowering Plants"
-      ],
+      "categories": ["Seasonal Plants", "Flowering Plants"],
       "sunlightRequirement": "Partial Sun",
       "moistureRequirement": "Moderate",
       "soilType": "Fertile, well-draining soil",
@@ -11829,10 +11491,7 @@
       "regionalName": "Chhatri Phool",
       "biologicalName": "Antirrhinum majus",
       "botanicalName": "Antirrhinum Snapdragons",
-      "tags": [
-        "Gift Plant",
-        "Decorative Plant"
-      ],
+      "tags": ["Gift Plant", "Decorative Plant"],
       "shippingStates": [
         "Pune (Maharashtra)",
         "Mumbai (Maharashtra)",
@@ -11853,7 +11512,7 @@
     },
     {
       "name": "Bluebell",
-      "id": 86,
+      "id": "86",
       "description": "Bluebells are stunning flowering plants known for their vibrant blue blossoms. They thrive in gardens and make an excellent choice for both indoor and outdoor settings, offering a touch of elegance to any space.",
       "price": 45,
       "rating": 3.8,
@@ -11969,11 +11628,7 @@
       "regionalName": "नील फूल",
       "biologicalName": "Hyacinthoides non-scripta",
       "botanicalName": "Campanula rotundifolia",
-      "tags": [
-        "Home Decor",
-        "Gardening Essentials",
-        "Low Maintenance"
-      ],
+      "tags": ["Home Decor", "Gardening Essentials", "Low Maintenance"],
       "shippingStates": [
         "Mumbai, Maharashtra",
         "Pune, Maharashtra",
@@ -11995,7 +11650,7 @@
     },
     {
       "name": "Amaryllis",
-      "id": 87,
+      "id": "87",
       "description": "The Amaryllis is a vibrant flowering plant known for its large, showy blooms that add charm to any garden or home. Perfect for gifting and low-maintenance gardening.",
       "price": 120,
       "rating": 4.1,
@@ -12061,7 +11716,7 @@
     },
     {
       "name": "Freesia",
-      "id": 88,
+      "id": "88",
       "description": "Freesias are beautiful, fragrant spring-flowering plants that produce colorful blooms. Known for their vibrant hues and sweet fragrance, they make a delightful addition to any garden or indoor space. Their long-lasting flowers add beauty and fragrance to any room, making them a popular choice for home decor and gifting.",
       "price": 350,
       "rating": 4.4,
@@ -12186,9 +11841,7 @@
         "Exotic Plants",
         "Easy to Grow"
       ],
-      "shippingStates": [
-        "Maharashtra (India)"
-      ],
+      "shippingStates": ["Maharashtra (India)"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-g-freesia-orange-bulbs-set-of-5-542941_600x600.jpg?v=1679750038",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-g-freesia-orange-bulbs-set-of-5-542941_600x600.jpg?v=1679750038",
@@ -12201,7 +11854,7 @@
     },
     {
       "name": "Ranunculus",
-      "id": 89,
+      "id": "89",
       "description": "Ranunculus flowers are known for their vibrant, delicate petals that bloom in various colors, adding beauty to any garden or indoor space. These low-maintenance flowers thrive in partial shade and are perfect for beginners, offering an exquisite touch to your living space or patio garden.",
       "price": 350,
       "rating": 4.7,
@@ -12328,9 +11981,7 @@
         "Easy to Grow",
         "Air Cleaner Plants"
       ],
-      "shippingStates": [
-        "Maharashtra (India)"
-      ],
+      "shippingStates": ["Maharashtra (India)"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-g-ranunculus-pink-bulbs-570563_600x600.jpg?v=1679750992",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-g-ranunculus-pink-bulbs-570563_600x600.jpg?v=1679750992",
@@ -12343,7 +11994,7 @@
     },
     {
       "name": "Morning Glory",
-      "id": 90,
+      "id": "90",
       "description": "Morning Glory (Ipomoea) is a beautiful, fast-growing vine that thrives in sunny spots, producing vibrant and large trumpet-shaped flowers. It's an easy-to-care-for plant that adds color to gardens, balconies, and patios, ideal for beginner gardeners.",
       "price": 300,
       "rating": 4.5,
@@ -12463,12 +12114,7 @@
       "regionalName": "Surajmukhi",
       "biologicalName": "Ipomoea purpurea",
       "botanicalName": "Ipomoea purpurea",
-      "tags": [
-        "House Warming",
-        "Garden",
-        "Climbing",
-        "Easy Care"
-      ],
+      "tags": ["House Warming", "Garden", "Climbing", "Easy Care"],
       "shippingStates": [
         "Maharashtra (India)",
         "Goa (India)",
@@ -12486,7 +12132,7 @@
     },
     {
       "name": "Jasmine",
-      "id": 91,
+      "id": "91",
       "description": "Jasmine flowers, widely known for their captivating fragrance, are a popular choice for gardens and homes across India. These flowers symbolize purity and are often used in various cultural and religious ceremonies. In addition to their beauty, they also help enhance relationships and bring a touch of serenity to any space.",
       "price": 100,
       "rating": 4.5,
@@ -12586,9 +12232,7 @@
       "sellerName": "Shree Krupa Nursery",
       "availability": "In Stock",
       "quantityAvailable": 50,
-      "categories": [
-        "Outdoor Plants"
-      ],
+      "categories": ["Outdoor Plants"],
       "sunlightRequirement": "Full Sun",
       "moistureRequirement": "Moderate",
       "soilType": "Loamy soil",
@@ -12600,14 +12244,8 @@
       "regionalName": "Jasmine",
       "biologicalName": "Jasminum sambac",
       "botanicalName": "Arabian Jasmine",
-      "tags": [
-        "Gift Ideas",
-        "Wedding Decorations",
-        "Aromatherapy"
-      ],
-      "shippingStates": [
-        "Maharashtra (India)"
-      ],
+      "tags": ["Gift Ideas", "Wedding Decorations", "Aromatherapy"],
+      "shippingStates": ["Maharashtra (India)"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-g-jasminum-sambac-mogra-arabian-jasmine_600x600.jpg?v=1634222612",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-g-jasminum-sambac-mogra-arabian-jasmine-1_540x720.jpg?v=1634222610",
@@ -12620,7 +12258,7 @@
     },
     {
       "name": "Sweet Peas",
-      "id": 92,
+      "id": "92",
       "description": "Sweet peas are a popular spring crop in Maharashtra, known for their fragrant, colorful blooms and tender pods. Whether grown for their sweet, edible pods or beautiful flowers, they thrive in full sun and well-drained soil.",
       "price": 80,
       "rating": 4.2,
@@ -12720,10 +12358,7 @@
       "sellerName": "Shree Hari Nursery",
       "availability": "In Stock",
       "quantityAvailable": 50,
-      "categories": [
-        "Outdoor Plants",
-        "Indoor Plants"
-      ],
+      "categories": ["Outdoor Plants", "Indoor Plants"],
       "sunlightRequirement": "Full Sun",
       "moistureRequirement": "Low",
       "soilType": "Well-drained loamy soil",
@@ -12735,17 +12370,8 @@
       "regionalName": "Hari Matar",
       "biologicalName": "Lathyrus odoratus",
       "botanicalName": "Lathyrus odoratus",
-      "tags": [
-        "House Warming",
-        "Gift Ideas",
-        "Low Maintenance"
-      ],
-      "shippingStates": [
-        "Maharashtra",
-        "Goa",
-        "Gujarat",
-        "Karnataka"
-      ],
+      "tags": ["House Warming", "Gift Ideas", "Low Maintenance"],
+      "shippingStates": ["Maharashtra", "Goa", "Gujarat", "Karnataka"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-seeds-peas-azad-p-3-desi-vegetable-seeds-16969165799564_600x600.jpg?v=1634204518",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-seeds-peas-azad-p1-desi-vegetable-seeds-16969165734028_600x600.jpg?v=1634204525",
@@ -12758,7 +12384,7 @@
     },
     {
       "name": "Periwinkle",
-      "id": 93,
+      "id": "93",
       "description": "Vinca, also known as Periwinkle, is a beautiful flowering plant that thrives in warm climates. Known for its vibrant blooms, this hardy, low-maintenance plant is ideal for adding color to gardens and indoor spaces. It is well-suited for borders, hanging baskets, and flower beds.",
       "price": 45,
       "rating": 4.4,
@@ -12858,11 +12484,7 @@
       "sellerName": "Shree Phool Garden Pvt. Ltd.",
       "availability": "In Stock",
       "quantityAvailable": 50,
-      "categories": [
-        "Outdoor Plants",
-        "Indoor Plants",
-        "Low Maintenance"
-      ],
+      "categories": ["Outdoor Plants", "Indoor Plants", "Low Maintenance"],
       "sunlightRequirement": "Partial Shade",
       "moistureRequirement": "Moderate",
       "soilType": "Well-drained loamy soil",
@@ -12899,7 +12521,7 @@
     },
     {
       "name": "Bleeding Heart",
-      "id": 94,
+      "id": "94",
       "description": "Clerodendrum thomsoniae, commonly known as Bleeding Heart, is a tropical evergreen vine that blooms vibrant, heart-shaped flowers. Native to West Africa, it thrives in tropical and subtropical climates, growing up to 4 meters tall. It requires minimal maintenance and adapts well to both indoor and outdoor environments, making it a perfect addition for any garden or home.",
       "price": 350,
       "rating": 4.7,
@@ -13044,7 +12666,7 @@
     },
     {
       "name": "Spider Lily",
-      "id": 95,
+      "id": "95",
       "description": "Spider Lily is a beautiful flowering plant known for its fragrant blooms. The flowers grow in clusters of up to 8 blooms, emitting a delightful fragrance. Its leaves are long and narrow, adding a graceful touch to any garden or indoor space.",
       "price": 250,
       "rating": 4.5,
@@ -13170,9 +12792,7 @@
         "Easy to Grow",
         "Air Cleaner Plants"
       ],
-      "shippingStates": [
-        "Maharashtra"
-      ],
+      "shippingStates": ["Maharashtra"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-g-hymenocallis-caribaea-spider-lilly-plant_600x600.jpg?v=1634222120",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-hymenocallis-caribaea-spider-lilly-plant-1_540x720.jpg?v=1634222117",
@@ -13185,7 +12805,7 @@
     },
     {
       "name": "Canna Lily",
-      "id": 96,
+      "id": "96",
       "description": "Canna Lily is a vibrant flowering plant that brings an exotic touch to your garden or indoor space. Known for its large, colorful flowers and lush, tropical foliage, this plant thrives in full sunlight and is a favorite for gardeners of all levels.",
       "price": 1200,
       "rating": 4.5,
@@ -13304,12 +12924,8 @@
       "regionalName": "गुलाबी फूल",
       "biologicalName": "Canna indica",
       "botanicalName": "Canna",
-      "tags": [
-        "House Warming"
-      ],
-      "shippingStates": [
-        "Maharashtra (India)"
-      ],
+      "tags": ["House Warming"],
+      "shippingStates": ["Maharashtra (India)"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-g-canna-yellow-flower-with-green-leaves-plant-566111_600x600.jpg?v=1679749395",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-canna-yellow-flower-with-green-leaves-plant-2-168020_540x720.jpg?v=1679749395",
@@ -13322,7 +12938,7 @@
     },
     {
       "name": "Calla Lily",
-      "id": 97,
+      "id": "97",
       "description": "Calla Lily (Any Color) - Known for its striking, trumpet-shaped flowers, the Calla Lily is a stunning addition to any garden or indoor space. Its elegant and graceful appearance makes it a popular choice for weddings and home decor. This plant thrives in partial shade and is known for its low maintenance care, making it perfect for both beginners and seasoned gardeners.",
       "price": 450,
       "rating": 4.1,
@@ -13442,13 +13058,8 @@
       "regionalName": "Kalachandani",
       "biologicalName": "Zantedeschia spp.",
       "botanicalName": "Zantedeschia spp.",
-      "tags": [
-        "House Warming",
-        "Gift Ideas"
-      ],
-      "shippingStates": [
-        "Maharashtra (India)"
-      ],
+      "tags": ["House Warming", "Gift Ideas"],
+      "shippingStates": ["Maharashtra (India)"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-g-plants-calla-lily-yellow-plant-in-6-inch-15-cm-grower-round-plastic-black-pot-742955_600x600.jpg?v=1679749392",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-plants-calla-lily-yellow-plant-in-6-inch-15-cm-grower-round-plastic-black-pot-1-686520_540x720.jpg?v=1679749392",
@@ -13461,7 +13072,7 @@
     },
     {
       "name": "Hosta",
-      "id": 98,
+      "id": "98",
       "description": "Hostas are perfect for adding a tropical touch to your home or garden. With vibrant foliage, they thrive in shaded or partially shaded spots, offering a soothing green appearance. Ideal for Maharashtra’s climate, they bring a refreshing look to your spaces.",
       "price": 399,
       "rating": 4.4,
@@ -13561,10 +13172,7 @@
       "sellerName": "Bharatiya Nursery",
       "availability": "In Stock",
       "quantityAvailable": 50,
-      "categories": [
-        "Outdoor Plants",
-        "Indoor Plants"
-      ],
+      "categories": ["Outdoor Plants", "Indoor Plants"],
       "sunlightRequirement": "Partial Sun",
       "moistureRequirement": "Low",
       "soilType": "Well-drained loamy soil",
@@ -13576,14 +13184,8 @@
       "regionalName": "गुलाब पौधा",
       "biologicalName": "Hosta spp.",
       "botanicalName": "Hosta",
-      "tags": [
-        "House Warming",
-        "Gift Ideas",
-        "Low Maintenance"
-      ],
-      "shippingStates": [
-        "Maharashtra"
-      ],
+      "tags": ["House Warming", "Gift Ideas", "Low Maintenance"],
+      "shippingStates": ["Maharashtra"],
       "primaryImage": "https://nurserylive.com/cdn/shop/products/nurserylive-hosta-plant_600x600.png?v=1634221892",
       "secondaryImages": [
         "https://nurserylive.com/cdn/shop/products/nurserylive-hosta-plant_600x600.png?v=1634221892",
@@ -13596,7 +13198,7 @@
     },
     {
       "name": "Elephant Bush",
-      "id": 99,
+      "id": "99",
       "description": "The Elephant Bush, also known as Portulacaria Afra, is a popular succulent plant characterized by its small, rounded, green leaves. It is native to South Africa and is valued for its low-maintenance care and drought tolerance. Often used in bonsai cultivation, it is also known for its air-purifying qualities and is a great addition to both indoor and outdoor spaces.",
       "price": 2500,
       "rating": 4.7,
@@ -13696,10 +13298,7 @@
       "sellerName": "Shree Plant Traders",
       "availability": "In Stock",
       "quantityAvailable": 50,
-      "categories": [
-        "Outdoor Plants",
-        "Indoor Plants"
-      ],
+      "categories": ["Outdoor Plants", "Indoor Plants"],
       "sunlightRequirement": "Partial Shade",
       "moistureRequirement": "Moderate",
       "soilType": "Well-drained loamy soil",
@@ -13735,7 +13334,7 @@
     },
     {
       "name": "Ficus Bonsai",
-      "id": 100,
+      "id": "100",
       "description": "Bonsai is the art of cultivating miniature tree forms that resemble full-grown trees. Ficus microcarpa bonsai is known for its compact size, strong roots, and small oval dark green leaves. It is a low-maintenance plant ideal for both indoor and outdoor spaces.",
       "price": 1200,
       "rating": 4.5,
@@ -13835,11 +13434,7 @@
       "sellerName": "Shree Ganesh Nursery",
       "availability": "Out of Stock",
       "quantityAvailable": 0,
-      "categories": [
-        "Outdoor Plants",
-        "Indoor Plants",
-        "Low Maintenance"
-      ],
+      "categories": ["Outdoor Plants", "Indoor Plants", "Low Maintenance"],
       "sunlightRequirement": "Full Sun",
       "moistureRequirement": "Low",
       "soilType": "Well-drained loamy soil",
@@ -13877,7 +13472,7 @@
     },
     {
       "name": "Philodendron",
-      "id": 101,
+      "id": "101",
       "description": "Philodendron is a popular indoor plant known for its heart-shaped leaves. It thrives in bright, indirect light and is ideal for adding greenery to homes and offices. Easy to care for, it is low maintenance and perfect for beginners.",
       "price": 250,
       "rating": 4.7,
@@ -13896,10 +13491,7 @@
       "sellerName": "Shivendra Nursery",
       "availability": "Out of Stock",
       "quantityAvailable": 0,
-      "categories": [
-        "Outdoor Plants",
-        "Indoor Plants"
-      ],
+      "categories": ["Outdoor Plants", "Indoor Plants"],
       "sunlightRequirement": "Partial Shade",
       "moistureRequirement": "Moderate",
       "soilType": "Well-drained loamy soil",
@@ -13933,7 +13525,7 @@
     },
     {
       "name": "Philodendron",
-      "id": 102,
+      "id": "102",
       "description": "Philodendron is a popular indoor plant known for its heart-shaped leaves. It thrives in bright, indirect light and is ideal for adding greenery to homes and offices. Easy to care for, it is low maintenance and perfect for beginners.",
       "price": 250,
       "rating": 4.7,
@@ -13952,10 +13544,7 @@
       "sellerName": "Shivendra Nursery",
       "availability": "Out of Stock",
       "quantityAvailable": 0,
-      "categories": [
-        "Outdoor Plants",
-        "Indoor Plants"
-      ],
+      "categories": ["Outdoor Plants", "Indoor Plants"],
       "sunlightRequirement": "Partial Shade",
       "moistureRequirement": "Moderate",
       "soilType": "Well-drained loamy soil",
@@ -13989,7 +13578,7 @@
     },
     {
       "name": "Philodendron",
-      "id": 103,
+      "id": "103",
       "description": "Philodendron is a popular indoor plant known for its heart-shaped leaves. It thrives in bright, indirect light and is ideal for adding greenery to homes and offices. Easy to care for, it is low maintenance and perfect for beginners.",
       "price": 250,
       "rating": 4.7,
@@ -14008,10 +13597,7 @@
       "sellerName": "Shivendra Nursery",
       "availability": "Out of Stock",
       "quantityAvailable": 0,
-      "categories": [
-        "Outdoor Plants",
-        "Indoor Plants"
-      ],
+      "categories": ["Outdoor Plants", "Indoor Plants"],
       "sunlightRequirement": "Partial Shade",
       "moistureRequirement": "Moderate",
       "soilType": "Well-drained loamy soil",
@@ -14045,7 +13631,7 @@
     },
     {
       "name": "Philodendron",
-      "id": 104,
+      "id": "104",
       "description": "Philodendron is a popular indoor plant known for its heart-shaped leaves. It thrives in bright, indirect light and is ideal for adding greenery to homes and offices. Easy to care for, it is low maintenance and perfect for beginners.",
       "price": 250,
       "rating": 4.7,
@@ -14064,10 +13650,7 @@
       "sellerName": "Shivendra Nursery",
       "availability": "Out of Stock",
       "quantityAvailable": 0,
-      "categories": [
-        "Outdoor Plants",
-        "Indoor Plants"
-      ],
+      "categories": ["Outdoor Plants", "Indoor Plants"],
       "sunlightRequirement": "Partial Shade",
       "moistureRequirement": "Moderate",
       "soilType": "Well-drained loamy soil",
@@ -14101,7 +13684,7 @@
     },
     {
       "name": "Philodendron",
-      "id": 105,
+      "id": "105",
       "description": "Philodendron is a popular indoor plant known for its heart-shaped leaves. It thrives in bright, indirect light and is ideal for adding greenery to homes and offices. Easy to care for, it is low maintenance and perfect for beginners.",
       "price": 250,
       "rating": 4.7,
@@ -14120,10 +13703,7 @@
       "sellerName": "Shivendra Nursery",
       "availability": "Out of Stock",
       "quantityAvailable": 0,
-      "categories": [
-        "Outdoor Plants",
-        "Indoor Plants"
-      ],
+      "categories": ["Outdoor Plants", "Indoor Plants"],
       "sunlightRequirement": "Partial Shade",
       "moistureRequirement": "Moderate",
       "soilType": "Well-drained loamy soil",
@@ -14154,6 +13734,45 @@
       ],
       "shoppingPolicy": "Ships within 5-7 business days.",
       "refundPolicy": "30-day refund policy with original receipt."
+    },
+    {
+      "id": "0e83",
+      "name": "Lilium",
+      "description": "Lilies are tall perennials ranging in height from 1–6 ft (30–180 cm). They form naked or tunicless scaly underground bulbs which are their organs of perennation. In some North American species the base of the bulb develops into rhizomes, on which numerous small bulbs are found. Some species develop stolons",
+      "price": "80",
+      "rating": "4",
+      "reviews": [],
+      "sunlightRequirement": "Full Sun",
+      "moistureRequirement": "Medium",
+      "soilType": "Loamy Soil",
+      "season": "Spring",
+      "growthRate": "Medium",
+      "potSizeRequired": "Medium",
+      "genus": "",
+      "localName": "",
+      "regionalName": "",
+      "biologicalName": "",
+      "botanicalName": "",
+      "tags": [],
+      "shippingStates": ["Maharashtra", "Goa", "Karnataka", "Kerala"],
+      "availability": "In Stock",
+      "quantityAvailable": "4",
+      "sellerName": "Lily Potter",
+      "sellerAddress": {
+        "street": "Jm Road",
+        "city": "Pune",
+        "state": "Maharashtra",
+        "country": "India",
+        "pincode": "412207"
+      },
+      "primaryImage": " https://images.unsplash.com/photo-1496062031456-07b8f162a322?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cm9zZXxlbnwwfHwwfHx8MA%3D%3D",
+      "secondaryImages": [
+        "https://growitmobile.com/wp-content/uploads/2021/10/Lilium-auratum.jpg",
+        "https://growitmobile.com/wp-content/uploads/2021/10/Lilium-auratum.jpg",
+        "https://growitmobile.com/wp-content/uploads/2021/10/Lilium-auratum.jpg"
+      ],
+      "shoppingPolicy": "NA",
+      "refundPolicy": "NA"
     }
   ]
 }

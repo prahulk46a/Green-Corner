@@ -9,6 +9,7 @@ import Hero from "../utils/HeroSection/Hero";
 import PageNotFound from "../pages/error-page/PageNotFound";
 import ProductDetails from "../utils/product-detail/ProductDetails";
 import Cart from "../pages/cart/Cart";
+import AddNewPlant from "../pages/addNewPlant/AddNewPlant";
 
 export let routes = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ export let routes = createBrowserRouter([
       {
         path: "/home/cart",
         element: <Cart />,
+      },
+      {
+        path: "/home/add-plant",
+        element: <AddNewPlant />,
       },
     ],
   },

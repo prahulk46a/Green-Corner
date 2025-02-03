@@ -28,7 +28,7 @@ const Card = ({ plant }) => {
   };
 
   return (
-    <div className="bg-white shadow-lg  my-3  rounded-lg overflow-hidden transform transition-transform hover:scale-105 w-full xs:mx-3 xs:w-[140px]  sm:w-[200px] md:w-[200px] lg:w-[200px] xl:w-[230px] 2xl:w-[270px] flex flex-col">
+    <div className="bg-white shadow-lg  xs:my-4 md:my-10   rounded-lg overflow-hidden transform transition-transform hover:scale-105 w-full xs:ml-2 xs:w-[130px]  sm:w-[200px] md:w-[200px] lg:w-[200px] xl:w-[230px] 2xl:w-[270px] flex flex-col">
       {/* Image */}
       <img
         src={plant.primaryImage}

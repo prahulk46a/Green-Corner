@@ -29,9 +29,9 @@ const Suggestions = ({ start, end, text }) => {
           </Link>
         </div>
       </div>
-      <div className="container  md:mx-auto  ">
+      <div className="container  xs:mx-3 md:mx-auto  ">
         {/* Grid for displaying plants */}
-        <div className="grid grid-cols-2  justify-around xs:grid-cols-2 xs2:grid-cols-3 sm:grid-cols-3  lg:grid-cols-5 gap-5 ">
+        <div className="grid grid-cols-2  justify-around xs:grid-cols-2 xs2:grid-cols-3 sm:grid-cols-3  lg:grid-cols-4 xl:grid-cols-5 gap-2 ">
           {displayedPlants.map((plant) => (
             <Card key={plant.id} plant={plant} />
           ))}

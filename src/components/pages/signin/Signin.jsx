@@ -1,4 +1,3 @@
-import { MdEmail } from "react-icons/md";
 import SigninBg from "../../../assets/SigninBg.jpg";
 import Footer from "../../utils/Footer/Footer";
 import Navbar from "../../utils/navbar/Navbar";
