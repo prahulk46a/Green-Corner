@@ -10,6 +10,7 @@ import PageNotFound from "../pages/error-page/PageNotFound";
 import ProductDetails from "../utils/product-detail/ProductDetails";
 import Cart from "../pages/cart/Cart";
 import AddNewPlant from "../pages/addNewPlant/AddNewPlant";
+import Wishlist from "../utils/wishlist/Wishlist";
 
 export let routes = createBrowserRouter([
   {
@@ -43,6 +44,10 @@ export let routes = createBrowserRouter([
       {
         path: "/home/add-plant",
         element: <AddNewPlant />,
+      },
+      {
+        path: "/home/wishlist",
+        element: <Wishlist />,
       },
     ],
   },

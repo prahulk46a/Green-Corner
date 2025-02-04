@@ -46,7 +46,7 @@ const Navbar = () => {
         </svg>
       ),
       label: "Wishlist",
-      path: "/wishlist",
+      path: "/home/wishlist",
     },
     {
       icon: (
