@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
-import error from "../../../assets/404_Video.mp4";
-import Footer from "../../utils/Footer/Footer";
+
 const PageNotFound = () => {
   return (
     // <div className="flex justify-center items-center h-screen">

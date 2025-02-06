@@ -1,3 +1,4 @@
+import React from "react";
 import Navbar from "../../utils/navbar/Navbar";
 import Footer from "../../utils/Footer/Footer";
 import { useReducer } from "react";
@@ -13,11 +14,11 @@ const reducer = (state, action) => {
         ...state,
         [action.field]: action.value,
       };
-    // case "submit":
-    //   return {
-    //     ...state,
-    //     userId: action.userId,
-    //   };
+    case "update_admin":
+      return {
+        ...state,
+        isAdmin: action.value,
+      };
     case "reset":
       return action.initialState;
     default:
@@ -32,16 +33,10 @@ const SignUp = () => {
     email: "",
     contact: "",
     userId: "",
+    isAdmin: false,
   };
 
   const [state, dispatch] = useReducer(reducer, initialState);
-
-  // // Track state changes with useEffect
-  // useEffect(() => {
-  //   if (state.userId) {
-  //     console.log("Updated state:", state);
-  //   }
-  // }, [state.userId]);
 
   const handleChange = (e) => {
     dispatch({
@@ -51,24 +46,22 @@ const SignUp = () => {
     });
   };
 
+  const handleAdmin = (e) => {
+    dispatch({
+      type: "update_admin",
+      value: e.target.checked,
+    });
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    // First dispatch submit action with new userId
-    // dispatch({
-    //   type: "submit",
-    //   userId: Date.now(),
-    // });
-
-    // Log the updated state after submission. Here it will not display userid as state will get updated after next rendering cycle but it will get reflect on ui
     console.log("Form submitted:", state);
 
     axios.post("http://116.75.62.44:8000/adduser", {
       ...state,
-      useId: Date.now(),
+      userId: Date.now(),
     });
 
-    // Then reset the form
     dispatch({ type: "reset", initialState });
   };
 
@@ -86,7 +79,6 @@ const SignUp = () => {
             Sign Up
           </h2>
           <form onSubmit={handleSubmit}>
-            {/* Username Input */}
             <div className="mb-4">
               <label
                 htmlFor="username"
@@ -105,8 +97,6 @@ const SignUp = () => {
                 className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               />
             </div>
-
-            {/* Email Input */}
             <div className="mb-4">
               <label
                 htmlFor="email"
@@ -125,8 +115,6 @@ const SignUp = () => {
                 className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               />
             </div>
-
-            {/* Contact Input */}
             <div className="mb-4">
               <label
                 htmlFor="contact"
@@ -145,8 +133,6 @@ const SignUp = () => {
                 className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               />
             </div>
-
-            {/* Password Input */}
             <div className="mb-4">
               <label
                 htmlFor="password"
@@ -165,8 +151,22 @@ const SignUp = () => {
                 className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               />
             </div>
-
-            {/* Submit Button */}
+            <div className="flex flex-row items-center mb-4 gap-4">
+              <label
+                htmlFor="isAdmin"
+                className="block text-gray-700 font-semibold mb-2"
+              >
+                Login as Admin
+              </label>
+              <input
+                type="checkbox"
+                id="isAdmin"
+                name="isAdmin"
+                checked={state.isAdmin}
+                onChange={handleAdmin}
+                className="px-4 py-2 border rounded-lg"
+              />
+            </div>
             <div className="mb-4">
               <button
                 type="submit"
@@ -176,8 +176,6 @@ const SignUp = () => {
               </button>
             </div>
           </form>
-
-          {/* Bottom Link */}
           <p className="text-center text-gray-600 mt-4 text-sm">
             Already have an account?{" "}
             <Link
