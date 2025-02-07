@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "name": "Rahul",
+      "password": "Pass@123",
+      "email": "prahulk212@gmail.com",
+      "userId": 1,
+      "isAdmin": true,
+      "id": "03b5"
+    },
+    {
+      "name": "Tejas",
+      "password": "Pass@212",
+      "email": "ptejas212@gmail.com",
+      "userId": 2,
+      "isAdmin": true,
+      "id": "74df"
+    },
+    {
+      "id": "1383",
+      "username": "Anjali",
+      "password": "Anjali@123",
+      "email": "anjali@gmail.com",
+      "contact": "8888855555",
+      "userId": 1738949543502,
+      "isAdmin": true
+    }
+  ]
+}

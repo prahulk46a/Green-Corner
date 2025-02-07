@@ -92,7 +92,7 @@ const Card = ({ plant }) => {
         {/* Rating */}
         <div className="flex items-center">
           <span className="text-teal-600 scale-90 md:scale-100 ">
-            <Ratings rating={plant.rating}></Ratings>
+            <Ratings rating={Number(plant.rating)}></Ratings>
           </span>
         </div>
 

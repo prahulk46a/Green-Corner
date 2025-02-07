@@ -9,7 +9,7 @@ const Wishlist = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="container mx-auto  p-4">
+    <div className="container mx-auto min-h-[500px] p-4">
       <h1 className="text-2xl font-bold text-green-700 mb-4">My Wishlist</h1>
       {wishlist.length === 0 ? (
         <p className="text-gray-500">Your wishlist is empty.</p>

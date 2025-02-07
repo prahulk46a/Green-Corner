@@ -25,7 +25,7 @@ const Signin = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .get("http://116.75.62.44:8000/auth")
+      .get("http://localhost:3002/users")
       .then((response) => {
         console.log(response);
         const exists = response.data.some(

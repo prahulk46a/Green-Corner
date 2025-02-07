@@ -1,42 +1,14 @@
-import React from "react";
+import { useContext } from "react";
 import Navbar from "../../utils/navbar/Navbar";
 import Footer from "../../utils/Footer/Footer";
-import { useReducer } from "react";
+
 import SigninBg from "../../../assets/SigninBg.jpg";
 import axios from "axios";
 import { Link } from "react-router-dom";
-
-// Reducer function to manage form state
-const reducer = (state, action) => {
-  switch (action.type) {
-    case "update_field":
-      return {
-        ...state,
-        [action.field]: action.value,
-      };
-    case "update_admin":
-      return {
-        ...state,
-        isAdmin: action.value,
-      };
-    case "reset":
-      return action.initialState;
-    default:
-      return state;
-  }
-};
+import { AuthContext } from "../../context/AuthContext";
 
 const SignUp = () => {
-  const initialState = {
-    username: "",
-    password: "",
-    email: "",
-    contact: "",
-    userId: "",
-    isAdmin: false,
-  };
-
-  const [state, dispatch] = useReducer(reducer, initialState);
+  const { state, dispatch } = useContext(AuthContext);
 
   const handleChange = (e) => {
     dispatch({
@@ -57,12 +29,12 @@ const SignUp = () => {
     e.preventDefault();
     console.log("Form submitted:", state);
 
-    axios.post("http://116.75.62.44:8000/adduser", {
+    axios.post("http://localhost:3002/users", {
       ...state,
       userId: Date.now(),
     });
 
-    dispatch({ type: "reset", initialState });
+    dispatch({ type: "reset" });
   };
 
   return (
