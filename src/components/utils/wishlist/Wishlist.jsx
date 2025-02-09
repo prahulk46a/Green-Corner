@@ -24,9 +24,7 @@ const Wishlist = () => {
                 src={plant.primaryImage}
                 alt={plant.name}
                 className="h-40 w-full object-cover cursor-pointer"
-                onClick={() =>
-                  navigate("/home/plant-desc", { state: { plant } })
-                }
+                onClick={() => navigate("/plant-desc", { state: { plant } })}
               />
               <div className="p-4 flex flex-col justify-between h-full">
                 <h3 className="font-semibold text-lg text-green-700 truncate">

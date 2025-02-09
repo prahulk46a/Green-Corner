@@ -12,6 +12,7 @@ import Cart from "../pages/cart/Cart";
 import AddNewPlant from "../pages/addNewPlant/AddNewPlant";
 import Wishlist from "../utils/wishlist/Wishlist";
 import AboutUs from "../pages/AboutUs/AboutUs";
+import ContactUs from "../pages/contact-us/ContactUs";
 
 export let routes = createBrowserRouter([
   {
@@ -29,6 +30,7 @@ export let routes = createBrowserRouter([
       { path: "signin", element: <Signin /> },
       { path: "signup", element: <SignUp /> },
       { path: "about", element: <AboutUs /> },
+      { path: "contact-us", element: <ContactUs /> },
     ],
   },
   {

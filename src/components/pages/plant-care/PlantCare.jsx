@@ -266,7 +266,7 @@ const PlantCare = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
-                className="overflow-hidden rounded-lg bg-white shadow-lg----"
+                className="overflow-hidden rounded-lg bg-white shadow-lg"
               >
                 <div className="h-48 overflow-hidden">
                   <img

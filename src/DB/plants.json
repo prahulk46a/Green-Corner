@@ -13740,7 +13740,7 @@
       "name": "Lilium",
       "description": "Lilies are tall perennials ranging in height from 1–6 ft (30–180 cm). They form naked or tunicless scaly underground bulbs which are their organs of perennation. In some North American species the base of the bulb develops into rhizomes, on which numerous small bulbs are found. Some species develop stolons",
       "price": "80",
-      "rating": "4",
+      "rating": 4,
       "reviews": [],
       "sunlightRequirement": "Full Sun",
       "moistureRequirement": "Medium",

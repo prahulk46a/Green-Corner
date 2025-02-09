@@ -37,6 +37,7 @@ const userReducer = (state, action) => {
 // Create context
 const UserContext = createContext();
 
+// eslint-disable-next-line react/prop-types
 export const UserProvider = ({ children }) => {
   const [state, dispatch] = useReducer(userReducer, initialState);
 

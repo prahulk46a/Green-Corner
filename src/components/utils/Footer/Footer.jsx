@@ -6,7 +6,7 @@ import LinksSection from "./LinksSection";
 const Footer = () => {
   const companyLinks = [
     { text: "About Us", href: "/about" },
-    { text: "Contact us", href: "#" },
+    { text: "Contact us", href: "/contact-us" },
     { text: "Careers", href: "#" },
   ];
 

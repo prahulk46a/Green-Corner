@@ -1,0 +1,39 @@
+{
+  "inquiries": [
+    {
+      "id": "48dc",
+      "name": "Tejas Deshmukh",
+      "email": "Tejas2501@gmail.com",
+      "subject": "Software Developer Job Application",
+      "message": "Interested for event that is going to happen today. Need More info"
+    },
+    {
+      "id": "7006",
+      "name": "Rahul Patil",
+      "email": "prahulk212@gmail.com",
+      "subject": "Software Developer Job Application",
+      "message": "Interested for software developer post @GreenCorner."
+    },
+    {
+      "id": "b751",
+      "name": "Yash Shinde",
+      "email": "yash20@gmail.com",
+      "subject": "Regarding to Sponsership",
+      "message": "Thank You for sponsoring SPPU E-cell event"
+    },
+    {
+      "id": "7019",
+      "name": "Yash Shinde",
+      "email": "yash20@gmail.com",
+      "subject": "Regarding to Sponsership",
+      "message": "Thank You for sponsoring SPPU E-cell event"
+    },
+    {
+      "id": "2e9c",
+      "name": "Yash Shinde",
+      "email": "yash20@gmail.com",
+      "subject": "Regarding to Sponsership",
+      "message": "Thank you for sponsoring SPPU for E-Cell event that held yesterday "
+    }
+  ]
+}

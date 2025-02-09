@@ -1,8 +1,12 @@
 import { Heart, Leaf, MessageCircle, Truck, Users } from "lucide-react";
 import img_rahul from "../../../assets/Rahul.png";
 import { motion } from "framer-motion";
+import { useEffect } from "react";
 
 const AboutUs = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
