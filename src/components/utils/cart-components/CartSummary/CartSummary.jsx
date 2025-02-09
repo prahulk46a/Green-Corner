@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const CartSummary = ({ totalPrice }) => {
   const [promoCode, setPromoCode] = useState("");
@@ -8,7 +9,9 @@ const CartSummary = ({ totalPrice }) => {
   // Standard calculations
   const tax = parseFloat(((totalPrice * 18) / 100).toFixed(2)); // 18% tax
   const discount = parseFloat(((totalPrice * 5) / 100).toFixed(2)); // 5% base discount
-  const shipping = totalPrice > 0 ? 5.0 : 0.0; // Shipping charge only if cart is not empty
+  // const shipping = totalPrice > 0 ? 5.0 : 0.0; // Shipping charge only if cart is not empty
+
+  const navigate = useNavigate();
 
   // Apply additional discount if promo code is correct
   let additionalDiscount = 0;
@@ -16,7 +19,8 @@ const CartSummary = ({ totalPrice }) => {
     additionalDiscount = parseFloat(((totalPrice * 5) / 100).toFixed(2)); // Extra 5% off
   }
 
-  let finalPrice = totalPrice + tax - discount - additionalDiscount + shipping;
+  let finalPrice = totalPrice + tax - discount - additionalDiscount;
+  // + shipping
   finalPrice = finalPrice > 0 ? finalPrice.toFixed(2) : "0.00"; // Ensures no negative values
 
   // Handle Promo Code Submission
@@ -77,10 +81,10 @@ const CartSummary = ({ totalPrice }) => {
             </span>
           </li>
         )}
-        <li className="flex justify-between text-base">
+        {/* <li className="flex justify-between text-base">
           <span>Shipping Charges</span>
           <span className="font-bold">₹{shipping.toFixed(2)}</span>
-        </li>
+        </li> */}
         <li className="flex justify-between text-base">
           <span>Tax (18%)</span>
           <span className="font-bold text-red-600">+₹{tax}</span>
@@ -96,6 +100,9 @@ const CartSummary = ({ totalPrice }) => {
         <button
           type="button"
           className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-md"
+          onClick={() => {
+            navigate("/checkout", { state: { finalPrice, discount, tax } });
+          }}
         >
           Checkout
         </button>

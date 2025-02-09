@@ -33,7 +33,7 @@ const BulkGifting = () => {
         initial="hidden"
         animate="visible"
         variants={fadeIn}
-        className="relative h-screen flex items-center justify-center bg-cover bg-center"
+        className="relative h-screen flex items-center justify-center bg-cover bg-center -z-10"
         style={{
           backgroundImage:
             'url("https://images.unsplash.com/photo-1470058869958-2a77ade41c02?auto=format&fit=crop&q=80")',
