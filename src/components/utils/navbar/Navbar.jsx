@@ -4,10 +4,10 @@ import logo from "../../../assets/logo.png";
 
 const Navbar = () => {
   const navLinks = [
-    { path: "/home", label: "Home" },
-    { path: "/home/plants", label: "Products" },
-    { path: "/home/bulk-gifting", label: "Bulk Gifting" },
-    { path: "/home/plant-care", label: "Plant Care" },
+    { path: "/", label: "Home" },
+    { path: "/plants", label: "Products" },
+    { path: "/bulk-gifting", label: "Bulk Gifting" },
+    { path: "/plant-care", label: "Plant Care" },
   ];
 
   const iconLinks = [
@@ -46,7 +46,7 @@ const Navbar = () => {
         </svg>
       ),
       label: "Wishlist",
-      path: "/home/wishlist",
+      path: "/wishlist",
     },
     {
       icon: (
@@ -65,7 +65,7 @@ const Navbar = () => {
         </svg>
       ),
       label: "Cart",
-      path: "/home/cart",
+      path: "/cart",
     },
     {
       icon: (

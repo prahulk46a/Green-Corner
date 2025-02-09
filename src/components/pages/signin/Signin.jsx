@@ -54,7 +54,6 @@ const Signin = () => {
 
   return (
     <div className="flex flex-col min-h-96">
-      <Navbar />
       <ToastContainer />
       <div className="sm:max-h-full relative">
         <img className=" md:h-[90vh] " src={SigninBg} alt="Background" />
@@ -137,7 +136,6 @@ const Signin = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

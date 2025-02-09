@@ -39,7 +39,6 @@ const SignUp = () => {
 
   return (
     <div>
-      <Navbar />
       <img
         className="relative md:h-[90vh] sm:h-[40vh]"
         src={SigninBg}
@@ -159,7 +158,6 @@ const SignUp = () => {
           </p>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

@@ -23,7 +23,7 @@ const ProductDetails = () => {
   const [selectedIndex, setSelectedIndex] = useState(null);
 
   let handleClick = () => {
-    navigate("/home/plants");
+    navigate("/plants");
   };
 
   const handleImageClick = (image, index) => {

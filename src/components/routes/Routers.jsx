@@ -14,61 +14,27 @@ import Wishlist from "../utils/wishlist/Wishlist";
 
 export let routes = createBrowserRouter([
   {
-    path: "/home",
-    element: <Home />,
-    children: [
-      {
-        path: "/home",
-        element: <Hero />,
-      },
-      {
-        path: "/home/plants",
-        element: <Plants />,
-      },
-      {
-        path: "/home/bulk-gifting",
-        element: <BulkGifting />,
-      },
-      {
-        path: "/home/plant-care",
-        element: <PlantCare />,
-      },
-      {
-        path: "/home/plant-desc",
-        element: <ProductDetails />,
-      },
-      {
-        path: "/home/cart",
-        element: <Cart />,
-      },
-      {
-        path: "/home/add-plant",
-        element: <AddNewPlant />,
-      },
-      {
-        path: "/home/wishlist",
-        element: <Wishlist />,
-      },
-    ],
-  },
-  {
     path: "/",
     element: <Home />,
-  },
-
-  {
-    path: "/signin",
-    element: <Signin />,
-  },
-  {
-    path: "/signup",
-    element: <SignUp />,
+    children: [
+      { index: true, element: <Hero /> }, // Default home content
+      { path: "plants", element: <Plants /> },
+      { path: "bulk-gifting", element: <BulkGifting /> },
+      { path: "plant-care", element: <PlantCare /> },
+      { path: "plant-desc", element: <ProductDetails /> },
+      { path: "cart", element: <Cart /> },
+      { path: "add-plant", element: <AddNewPlant /> },
+      { path: "wishlist", element: <Wishlist /> },
+      { path: "signin", element: <Signin /> }, // Added inside Home
+      { path: "signup", element: <SignUp /> }, // Added inside Home
+    ],
   },
   {
     path: "*",
     element: <PageNotFound />,
   },
 ]);
+
 const Routers = () => {
   return <div>Routers</div>;
 };

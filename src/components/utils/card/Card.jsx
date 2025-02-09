@@ -13,7 +13,7 @@ const Card = ({ plant }) => {
   const [added, setAdded] = useState(false);
 
   const handleClick = () => {
-    navigate("/home/plant-desc", { state: { plant } });
+    navigate("/plant-desc", { state: { plant } });
   };
 
   // Bringing cart state

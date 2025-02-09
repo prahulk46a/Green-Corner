@@ -22,7 +22,7 @@ const Suggestions = ({ start, end, text }) => {
 
         <div className=" text-center">
           <Link
-            to="/home/plants"
+            to="/plants"
             className=" text-Black   hover:text-blue-500 transition duration-300 text-base sm:text-lg lg:text-xl"
           >
             See All Products

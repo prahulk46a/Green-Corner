@@ -5,7 +5,7 @@ const Hero = () => {
   const navigate = useNavigate();
   const handleClick = (e) => {
     e.preventDefault();
-    navigate("/home/plants");
+    navigate("/plants");
   };
 
   return (

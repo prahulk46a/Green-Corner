@@ -2,20 +2,6 @@ import { Link } from "react-router-dom";
 
 const PageNotFound = () => {
   return (
-    // <div className="flex justify-center items-center h-screen">
-    //   <div className="flex justify-center items-center border bottom-2">
-    //     <video src={error} className="w-[40%] " autoPlay loop muted></video>
-    //     <div className="flex md:flex-col xs:flex-row justify-center items-center">
-    //       <h1 className="text-black font-semibold md:text-xl xs:text-sm ">
-    //         404: The road you’re on doesn’t lead anywhere.
-    //       </h1>
-    //       <button className="bg-green-700 xs:text-sm m-5 xs:w-40 text-white p-2 rounded-md shadow-md">
-    //         Return Home
-    //       </button>
-    //     </div>
-    //   </div>
-    // </div>
-
     <section className="bg-white dark:bg-gray-900">
       <div className="py-8 px-4 mx-auto max-w-screen-xl h-screen lg:py-16 lg:px-6 flex justify-center items-center">
         <div className="mx-auto max-w-screen-sm text-center">
@@ -26,8 +12,8 @@ const PageNotFound = () => {
             ></img>
           </div>
           <p className="m-4 text-lg  text-gray-500 dark:text-gray-400">
-            Sorry, we can't find that page. You'll find lots to explore on the
-            home page.{" "}
+            Sorry, we can&apos;t find that page. You&apos;ll find lots to
+            explore on the home page.{" "}
           </p>
           <Link
             to="/home"
