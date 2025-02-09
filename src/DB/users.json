@@ -1,28 +1,30 @@
 {
   "users": [
     {
-      "name": "Rahul",
-      "password": "Pass@123",
+      "id": "7363",
+      "username": "Rahul",
+      "password": "Rahul@123",
       "email": "prahulk212@gmail.com",
-      "userId": 1,
-      "isAdmin": true,
-      "id": "03b5"
+      "contact": "7575878765",
+      "userId": 1739101334407,
+      "isAdmin": true
     },
     {
-      "name": "Tejas",
-      "password": "Pass@212",
-      "email": "ptejas212@gmail.com",
-      "userId": 2,
-      "isAdmin": true,
-      "id": "74df"
+      "id": "b29f",
+      "username": "Tejas Deshmukh",
+      "password": "Tejas@123",
+      "email": "Tejas2501@gmail.com",
+      "contact": "9876543210",
+      "userId": 1739101483234,
+      "isAdmin": false
     },
     {
-      "id": "1383",
+      "id": "f237",
       "username": "Anjali",
       "password": "Anjali@123",
-      "email": "anjali@gmail.com",
+      "email": "panjali0902@gmail.com",
       "contact": "8888855555",
-      "userId": 1738949543502,
+      "userId": 1739101709875,
       "isAdmin": true
     }
   ]

@@ -221,9 +221,9 @@ const BulkGifting = () => {
                 Plants for Every Space
               </h2>
               <p className="text-gray-600 mb-8">
-                Whether you're a seasoned plant parent or just starting your
-                green journey, we have the perfect plants for your lifestyle and
-                space.
+                Whether you&apos;re a seasoned plant parent or just starting
+                your green journey, we have the perfect plants for your
+                lifestyle and space.
               </p>
               <ul className="space-y-4">
                 {[

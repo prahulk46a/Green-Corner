@@ -1,6 +1,5 @@
 import SigninBg from "../../../assets/SigninBg.jpg";
-import Footer from "../../utils/Footer/Footer";
-import Navbar from "../../utils/navbar/Navbar";
+
 import { useState } from "react";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
@@ -34,7 +33,7 @@ const Signin = () => {
         );
 
         if (exists) {
-          navigate("/home");
+          navigate("/");
         } else {
           toast.error("Invalid login. Please try again.", {
             position: "top-right",
@@ -124,7 +123,7 @@ const Signin = () => {
               </button>
 
               <p className="text-center text-gray-600 text-sm">
-                Don't have an account?{" "}
+                Don&apos;t have an account?{" "}
                 <Link
                   to="/signup"
                   className="text-blue-500 hover:underline font-medium"
