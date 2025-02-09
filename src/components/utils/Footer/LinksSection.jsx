@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const LinksSection = ({ title, links }) => {
   return (
     <div>
@@ -7,12 +9,12 @@ const LinksSection = ({ title, links }) => {
       <ul className="mt-4 space-y-3">
         {links.map((link) => (
           <li key={link.text}>
-            <a
-              href={link.href}
+            <Link
+              to={link.href}
               className="text-base text-gray-300 hover:text-white"
             >
               {link.text}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>

@@ -11,13 +11,14 @@ import ProductDetails from "../utils/product-detail/ProductDetails";
 import Cart from "../pages/cart/Cart";
 import AddNewPlant from "../pages/addNewPlant/AddNewPlant";
 import Wishlist from "../utils/wishlist/Wishlist";
+import AboutUs from "../pages/AboutUs/AboutUs";
 
 export let routes = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
     children: [
-      { index: true, element: <Hero /> }, // Default home content
+      { index: true, element: <Hero /> },
       { path: "plants", element: <Plants /> },
       { path: "bulk-gifting", element: <BulkGifting /> },
       { path: "plant-care", element: <PlantCare /> },
@@ -25,8 +26,9 @@ export let routes = createBrowserRouter([
       { path: "cart", element: <Cart /> },
       { path: "add-plant", element: <AddNewPlant /> },
       { path: "wishlist", element: <Wishlist /> },
-      { path: "signin", element: <Signin /> }, // Added inside Home
-      { path: "signup", element: <SignUp /> }, // Added inside Home
+      { path: "signin", element: <Signin /> },
+      { path: "signup", element: <SignUp /> },
+      { path: "about", element: <AboutUs /> },
     ],
   },
   {

@@ -207,8 +207,8 @@ const PlantCare = () => {
                   onClick={() => setActiveGuide(type)}
                   className={`rounded-full px-6 py-2 transition-all ${
                     activeGuide === type
-                      ? "bg-sage-600 text-white"
-                      : "bg-sage-100 text-sage-600 hover:bg-sage-200"
+                      ? "bg-slate-300 text-black"
+                      : "bg-slate-100 text-sage-600 hover:bg-sage-200"
                   }`}
                 >
                   {type.charAt(0).toUpperCase() + type.slice(1)} Plants
@@ -266,7 +266,7 @@ const PlantCare = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
-                className="overflow-hidden rounded-lg bg-white shadow-xs"
+                className="overflow-hidden rounded-lg bg-white shadow-lg----"
               >
                 <div className="h-48 overflow-hidden">
                   <img

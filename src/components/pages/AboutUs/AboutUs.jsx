@@ -1,17 +1,15 @@
-import {
-  Facebook,
-  Heart,
-  Instagram,
-  Leaf,
-  MessageCircle,
-  Truck,
-  Twitter,
-  Users,
-} from "lucide-react";
+import { Heart, Leaf, MessageCircle, Truck, Users } from "lucide-react";
+import img_rahul from "../../../assets/Rahul.png";
+import { motion } from "framer-motion";
 
 const AboutUs = () => {
   return (
-    <div className="min-h-screen bg-sage-50">
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+      className="min-h-screen bg-sage-50"
+    >
       {/* Hero Section */}
       <div
         className="h-[500px] bg-cover bg-center relative"
@@ -25,8 +23,8 @@ const AboutUs = () => {
           <div className="text-center text-white px-4">
             <h1 className="text-5xl font-bold mb-4">Growing Together</h1>
             <p className="text-xl max-w-2xl mx-auto">
-              Bringing nature's beauty into your space with carefully curated
-              plants and expert care guidance
+              Bringing nature&apos;s beauty into your space with carefully
+              curated plants and expert care guidance
             </p>
           </div>
         </div>
@@ -34,21 +32,35 @@ const AboutUs = () => {
 
       {/* Mission Statement */}
       <div className="max-w-7xl mx-auto px-4 py-16">
-        <div className="text-center mb-16">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="text-center mb-16 pb-10 pt-4  shadow-md rounded-lg "
+        >
           <div className="flex justify-center mb-4">
             <Leaf className="w-12 h-12 text-emerald-600" />
           </div>
           <h2 className="text-3xl font-bold mb-6">Our Mission</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            At Kyari, we believe in the transformative power of plants. Our
-            mission is to help people create their own urban jungle, bringing
-            the calming and purifying effects of nature into their daily lives.
+            At The Green Corner, we are passionate about bringing nature closer
+            to people. Our mission is to inspire and guide plant lovers in
+            creating vibrant, thriving green spaces. We believe that plants
+            enhance well-being, purify the air, and bring tranquility to any
+            environment. Through expert tips and sustainable practices, we make
+            plant care simple and enjoyable. Whether you&apos;re a beginner or
+            an expert, we&apos;re here to help you grow with confidence.
           </p>
-        </div>
+        </motion.div>
 
         {/* Values Grid */}
-        <div className="grid md:grid-cols-3 gap-8 mb-16">
-          <div className="bg-white p-8 rounded-lg shadow-sm text-center">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="grid md:grid-cols-3 gap-8 mb-16"
+        >
+          <div className="bg-white p-8 rounded-lg shadow-md text-center">
             <div className="flex justify-center mb-4">
               <Heart className="w-8 h-8 text-emerald-600" />
             </div>
@@ -58,7 +70,7 @@ const AboutUs = () => {
               with love and expertise.
             </p>
           </div>
-          <div className="bg-white p-8 rounded-lg shadow-sm text-center">
+          <div className="bg-white p-8 rounded-lg shadow-md text-center">
             <div className="flex justify-center mb-4">
               <Truck className="w-8 h-8 text-emerald-600" />
             </div>
@@ -68,7 +80,7 @@ const AboutUs = () => {
               specialized packaging.
             </p>
           </div>
-          <div className="bg-white p-8 rounded-lg shadow-sm text-center">
+          <div className="bg-white p-8 rounded-lg shadow-md text-center">
             <div className="flex justify-center mb-4">
               <MessageCircle className="w-8 h-8 text-emerald-600" />
             </div>
@@ -78,10 +90,15 @@ const AboutUs = () => {
               tips and advice.
             </p>
           </div>
-        </div>
+        </motion.div>
 
         {/* Team Section */}
-        <div className="text-center mb-16">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="text-center mb-16 shadow-md rounded-lg"
+        >
           <div className="flex justify-center mb-4">
             <Users className="w-12 h-12 text-emerald-600" />
           </div>
@@ -89,11 +106,11 @@ const AboutUs = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="mb-8">
               <img
-                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80"
+                src={img_rahul}
                 alt="Team Member"
-                className="w-48 h-48 rounded-full mx-auto mb-4 object-cover"
+                className="w-48 h-48 rounded-full mx-auto mb-4 object-cover bg-gray-400"
               />
-              <h3 className="text-xl font-semibold">Sarah Johnson</h3>
+              <h3 className="text-xl font-semibold">Rahul Patil</h3>
               <p className="text-gray-600">Founder & Plant Expert</p>
             </div>
             <div className="mb-8">
@@ -115,34 +132,9 @@ const AboutUs = () => {
               <p className="text-gray-600">Customer Care Specialist</p>
             </div>
           </div>
-        </div>
-
-        {/* Social Links */}
-        <div className="text-center">
-          <h2 className="text-3xl font-bold mb-6">Connect With Us</h2>
-          <div className="flex justify-center space-x-6">
-            <a
-              href="#"
-              className="text-emerald-600 hover:text-emerald-700 transition-colors"
-            >
-              <Instagram className="w-8 h-8" />
-            </a>
-            <a
-              href="#"
-              className="text-emerald-600 hover:text-emerald-700 transition-colors"
-            >
-              <Facebook className="w-8 h-8" />
-            </a>
-            <a
-              href="#"
-              className="text-emerald-600 hover:text-emerald-700 transition-colors"
-            >
-              <Twitter className="w-8 h-8" />
-            </a>
-          </div>
-        </.div>
+        </motion.div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
