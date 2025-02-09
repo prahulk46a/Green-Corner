@@ -58,8 +58,6 @@ const SignUp = () => {
     const isValid = Object.values(passwordValidation).every(Boolean);
 
     if (!isValid) return;
-
-    // Make the POST request to register the user
     axios
       .post("http://localhost:3002/users", {
         ...state,
@@ -74,12 +72,11 @@ const SignUp = () => {
           closeOnClick: true,
           pauseOnHover: true,
           draggable: true,
-          theme: "light", // Custom success icon
+          theme: "light",
         });
       })
       // eslint-disable-next-line no-unused-vars
       .catch((error) => {
-        // Show error toast if registration fails
         toast.error("Registration failed. Please try again.", {
           position: "top-right",
           autoClose: 3000,

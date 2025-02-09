@@ -5,17 +5,30 @@ export const CartContextState = createContext();
 // eslint-disable-next-line react/prop-types
 const CartContext = ({ children }) => {
   const [cart, setCart] = useState([]);
+
   const addToCart = (plant) => {
     setCart((prevCart) => {
-      const isAlreadyInCart = prevCart.some((item) => item.id === plant.id);
-      if (isAlreadyInCart) return prevCart; // Avoid duplicates
-      return [...prevCart, plant];
+      const existingItem = prevCart.find((item) => item.id === plant.id);
+      if (existingItem) {
+        // If the item exists, increase the count
+        return prevCart.map((item) =>
+          item.id === plant.id ? { ...item, count: item.count + 1 } : item
+        );
+      } else {
+        // If the item doesn't exist, add it with count 1
+        return [...prevCart, { ...plant, count: 1 }];
+      }
     });
   };
 
   const removeFromCart = (id) => {
-    const updatedCart = cart.filter((item) => item.id !== id); // Removes the plant by id
-    setCart(updatedCart);
+    setCart((prevCart) => {
+      return prevCart
+        .map((item) =>
+          item.id === id ? { ...item, count: item.count - 1 } : item
+        )
+        .filter((item) => item.count > 0); // Remove items with count 0
+    });
   };
 
   return (

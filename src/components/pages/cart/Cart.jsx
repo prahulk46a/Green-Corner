@@ -6,7 +6,10 @@ import CartSummary from "../../utils/cart-components/CartSummary/CartSummary";
 const Cart = () => {
   // Receive cart state {cart} here from cart-context and map on it
   const { cart } = useContext(CartContextState);
-
+  const totalPrice = cart.reduce(
+    (sum, item) => sum + item.price * item.count,
+    0
+  );
   return (
     <div className="font-sans md:max-w-4xl max-md:max-w-xl mx-auto bg-white py-4">
       <div className="grid md:grid-cols-3 gap-4">
@@ -36,7 +39,7 @@ const Cart = () => {
 
         {/* Summary Section */}
         <div className="rounded-md p-4 md:sticky top-0">
-          <CartSummary />
+          <CartSummary totalPrice={totalPrice} />
         </div>
       </div>
     </div>

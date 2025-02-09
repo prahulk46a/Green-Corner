@@ -4,10 +4,10 @@ import { useContext } from "react";
 import { CartContextState } from "../../../context/CartContext";
 
 const CartItems = ({ id, image, title, price, sizeOptions }) => {
-  const { removeFromCart } = useContext(CartContextState);
-  const handleRemove = () => {
-    removeFromCart(id);
-  };
+  const { cart, addToCart, removeFromCart } = useContext(CartContextState);
+
+  const cartItem = cart.find((item) => item.id === id);
+  const count = cartItem ? cartItem.count : 0;
 
   return (
     <div className="grid grid-cols-3 items-center gap-4">
@@ -23,7 +23,7 @@ const CartItems = ({ id, image, title, price, sizeOptions }) => {
           <h3 className="text-base font-bold text-gray-800">{title}</h3>
           <button
             className="text-xs text-red-500 cursor-pointer mt-0.5"
-            onClick={handleRemove}
+            onClick={() => removeFromCart(id)}
           >
             Remove
           </button>
@@ -39,15 +39,19 @@ const CartItems = ({ id, image, title, price, sizeOptions }) => {
                   className="w-2.5 fill-current"
                   viewBox="0 0 124 124"
                   aria-hidden="true"
+                  onClick={() => removeFromCart(id)}
                 >
                   <path d="M112 50H12C5.4 50 0 55.4 0 62s5.4 12 12 12h100c6.6 0 12-5.4 12-12s-5.4-12-12-12z" />
                 </svg>
-                <span className="mx-2.5">2</span>
+                <span className="mx-2.5">{count}</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="w-2.5 fill-current"
                   viewBox="0 0 42 42"
                   aria-hidden="true"
+                  onClick={() =>
+                    addToCart(cartItem || { id, image, title, price })
+                  }
                 >
                   <path d="M37.059 16H26V4.941C26 2.224 23.718 0 21 0s-5 2.224-5 4.941V16H4.941C2.224 16 0 18.282 0 21s2.224 5 4.941 5H16v11.059C16 39.776 18.282 42 21 42s5-2.224 5-4.941V26h11.059C39.776 26 42 23.718 42 21s-2.224-5-4.941-5z" />
                 </svg>
@@ -57,7 +61,7 @@ const CartItems = ({ id, image, title, price, sizeOptions }) => {
         </div>
       </div>
       <div className="ml-auto">
-        <h4 className="text-base font-bold text-gray-800">${price}</h4>
+        <h4 className="text-base font-bold text-gray-800">${price * count}</h4>
       </div>
     </div>
   );
@@ -68,7 +72,7 @@ CartItems.propTypes = {
   title: PropTypes.string.isRequired,
   price: PropTypes.number.isRequired,
   id: PropTypes.string.isRequired,
-  sizeOptions: PropTypes.arrayOf(PropTypes.string).isRequired, // Specify array type
+  sizeOptions: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 
 export default CartItems;
