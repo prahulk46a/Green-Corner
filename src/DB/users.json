@@ -26,6 +26,42 @@
       "contact": "8888855555",
       "userId": 1739101709875,
       "isAdmin": true
+    },
+    {
+      "id": "ae2f",
+      "username": "Rahul",
+      "password": "Rahul@123",
+      "email": "prahulk212@gmail.com",
+      "contact": "7887466968",
+      "userId": 1739166762348,
+      "isAdmin": true
+    },
+    {
+      "id": "2313",
+      "username": "Anjali",
+      "password": "Anjali@121",
+      "email": "anjali@gmail.com",
+      "contact": "8888855555",
+      "userId": 1739166789397,
+      "isAdmin": true
+    },
+    {
+      "id": "d366",
+      "username": "prahulk46A",
+      "password": "Pass@123",
+      "email": "rahulpatil46a@gmail.com",
+      "contact": "7575878765",
+      "userId": 1739166820496,
+      "isAdmin": false
+    },
+    {
+      "id": "90bb",
+      "username": "Yash",
+      "password": "Yash@123",
+      "email": "yash20@gmail.com",
+      "contact": "8822336644",
+      "userId": 1739166855512,
+      "isAdmin": false
     }
   ]
 }

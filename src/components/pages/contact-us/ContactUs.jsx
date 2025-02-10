@@ -69,10 +69,10 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="min-h-screen bg-sage-50">
+    <div className="min-h-screen bg-sage-50 ">
       {/* Hero Section */}
       <div
-        className="h-[300px] bg-cover bg-center relative"
+        className="h-[300px] bg-cover bg-center relative -z-10"
         style={{
           backgroundImage:
             'url("https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&fit=crop&q=80")',

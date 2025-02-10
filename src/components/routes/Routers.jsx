@@ -14,6 +14,9 @@ import Wishlist from "../utils/wishlist/Wishlist";
 import AboutUs from "../pages/AboutUs/AboutUs";
 import ContactUs from "../pages/contact-us/ContactUs";
 import Checkout from "../pages/checkout/Checkout";
+import DashBoard from "../pages/Admin/DashBoard";
+import PlantManage from "../pages/Admin/plants/PlantManage";
+import Usersmanage from "../pages/Admin/users/Usersmanage";
 
 export let routes = createBrowserRouter([
   {
@@ -35,6 +38,13 @@ export let routes = createBrowserRouter([
       { path: "checkout", element: <Checkout /> },
     ],
   },
+  {
+    path: "/dashboard",
+    element: <DashBoard />,
+  },
+  { path: "/dashboard/plants", element: <PlantManage /> },
+
+  { path: "/dashboard/users", element: <Usersmanage /> },
   {
     path: "*",
     element: <PageNotFound />,
