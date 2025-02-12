@@ -75,7 +75,7 @@ const AddNewPlant = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Handle form submission, e.g., send data to an API
-    axios.post("http://localhost:3001/plants", formData).then(() => {
+    axios.post("http://localhost:3005/plants", formData).then(() => {
       console.log("posted Sucessfuly Data");
     });
     console.log(formData);
